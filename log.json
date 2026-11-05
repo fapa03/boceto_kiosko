@@ -1,0 +1,3242 @@
+[
+  {
+    "zona": "CRB01",
+    "region": "Sureste",
+    "usuario": "50017",
+    "plataforma": "GCA",
+    "startTime": "2026-08-06T11:22:12.817Z",
+    "endTime": "2026-08-06T11:32:40.817Z",
+    "sessionTimeSeconds": 628
+  },
+  {
+    "zona": "MTY03",
+    "region": "Norte",
+    "usuario": "50062",
+    "plataforma": "GCA",
+    "startTime": "2026-08-06T15:03:51.066Z",
+    "endTime": "2026-08-06T15:10:16.066Z",
+    "sessionTimeSeconds": 385
+  },
+  {
+    "zona": "TGZ01",
+    "region": "Sureste",
+    "usuario": "50039",
+    "plataforma": "GCA",
+    "startTime": "2026-08-06T22:57:25.567Z",
+    "endTime": "2026-08-06T23:05:28.567Z",
+    "sessionTimeSeconds": 483
+  },
+  {
+    "zona": "PCM01",
+    "region": "Sureste",
+    "usuario": "50069",
+    "plataforma": "HCM",
+    "startTime": "2026-08-07T10:21:50.952Z",
+    "endTime": "2026-08-07T10:40:43.952Z",
+    "sessionTimeSeconds": 1133
+  },
+  {
+    "zona": "CEN01",
+    "region": "Noroeste",
+    "usuario": "50077",
+    "plataforma": "GCA",
+    "startTime": "2026-08-07T14:49:49.764Z",
+    "endTime": "2026-08-07T14:55:42.764Z",
+    "sessionTimeSeconds": 353
+  },
+  {
+    "zona": "TAM01",
+    "region": "Norte",
+    "usuario": "50070",
+    "plataforma": "HCM",
+    "startTime": "2026-08-07T18:51:02.569Z",
+    "endTime": "2026-08-07T19:06:51.569Z",
+    "sessionTimeSeconds": 949
+  },
+  {
+    "zona": "COA01",
+    "region": "Sureste",
+    "usuario": "50017",
+    "plataforma": "GCA",
+    "startTime": "2026-08-08T00:25:22.025Z",
+    "endTime": "2026-08-08T00:38:20.025Z",
+    "sessionTimeSeconds": 778
+  },
+  {
+    "zona": "PCM01",
+    "region": "Sureste",
+    "usuario": "50015",
+    "plataforma": "HCM",
+    "startTime": "2026-08-08T01:57:49.316Z",
+    "endTime": "2026-08-08T02:03:17.316Z",
+    "sessionTimeSeconds": 328
+  },
+  {
+    "zona": "CJS01",
+    "region": "Norte",
+    "usuario": "50016",
+    "plataforma": "GCA",
+    "startTime": "2026-08-08T05:00:11.997Z",
+    "endTime": "2026-08-08T05:16:13.997Z",
+    "sessionTimeSeconds": 962
+  },
+  {
+    "zona": "MLM01",
+    "region": "Occidente",
+    "usuario": "50028",
+    "plataforma": "GCA",
+    "startTime": "2026-08-08T06:19:22.098Z",
+    "endTime": "2026-08-08T06:30:07.098Z",
+    "sessionTimeSeconds": 645
+  },
+  {
+    "zona": "GDL02",
+    "region": "Occidente",
+    "usuario": "50080",
+    "plataforma": "GCA",
+    "startTime": "2026-08-08T15:49:46.729Z",
+    "endTime": "2026-08-08T16:00:20.729Z",
+    "sessionTimeSeconds": 634
+  },
+  {
+    "zona": "TGZ01",
+    "region": "Sureste",
+    "usuario": "50006",
+    "plataforma": "GCA",
+    "startTime": "2026-08-08T17:49:17.913Z",
+    "endTime": "2026-08-08T17:54:46.913Z",
+    "sessionTimeSeconds": 329
+  },
+  {
+    "zona": "MZT01",
+    "region": "Noroeste",
+    "usuario": "50051",
+    "plataforma": "GCA",
+    "startTime": "2026-08-08T22:04:13.574Z",
+    "endTime": "2026-08-08T22:09:01.574Z",
+    "sessionTimeSeconds": 288
+  },
+  {
+    "zona": "COA01",
+    "region": "Sureste",
+    "usuario": "50059",
+    "plataforma": "HCM",
+    "startTime": "2026-08-08T23:25:48.022Z",
+    "endTime": "2026-08-08T23:27:27.022Z",
+    "sessionTimeSeconds": 99
+  },
+  {
+    "zona": "IRA02",
+    "region": "Occidente",
+    "usuario": "50025",
+    "plataforma": "GCA",
+    "startTime": "2026-08-09T01:18:35.522Z",
+    "endTime": "2026-08-09T01:35:33.522Z",
+    "sessionTimeSeconds": 1018
+  },
+  {
+    "zona": "CUN01",
+    "region": "Sureste",
+    "usuario": "50046",
+    "plataforma": "HCM",
+    "startTime": "2026-08-09T12:12:51.673Z",
+    "endTime": "2026-08-09T12:30:57.673Z",
+    "sessionTimeSeconds": 1086
+  },
+  {
+    "zona": "CUN01",
+    "region": "Sureste",
+    "usuario": "50057",
+    "plataforma": "HCM",
+    "startTime": "2026-08-09T21:27:57.643Z",
+    "endTime": "2026-08-09T21:33:25.643Z",
+    "sessionTimeSeconds": 328
+  },
+  {
+    "zona": "PVR01",
+    "region": "Occidente",
+    "usuario": "50062",
+    "plataforma": "HCM",
+    "startTime": "2026-08-09T23:34:54.934Z",
+    "endTime": "2026-08-09T23:46:38.934Z",
+    "sessionTimeSeconds": 704
+  },
+  {
+    "zona": "HMO01",
+    "region": "Noroeste",
+    "usuario": "50071",
+    "plataforma": "HCM",
+    "startTime": "2026-08-10T02:34:34.116Z",
+    "endTime": "2026-08-10T02:36:11.116Z",
+    "sessionTimeSeconds": 97
+  },
+  {
+    "zona": "VER01",
+    "region": "Sureste",
+    "usuario": "50012",
+    "plataforma": "HCM",
+    "startTime": "2026-08-10T12:07:31.980Z",
+    "endTime": "2026-08-10T12:25:39.980Z",
+    "sessionTimeSeconds": 1088
+  },
+  {
+    "zona": "MTY02",
+    "region": "Norte",
+    "usuario": "50054",
+    "plataforma": "GCA",
+    "startTime": "2026-08-10T12:41:42.997Z",
+    "endTime": "2026-08-10T12:50:10.997Z",
+    "sessionTimeSeconds": 508
+  },
+  {
+    "zona": "ACA01",
+    "region": "Centro",
+    "usuario": "50029",
+    "plataforma": "HCM",
+    "startTime": "2026-08-10T14:25:39.204Z",
+    "endTime": "2026-08-10T14:41:00.204Z",
+    "sessionTimeSeconds": 921
+  },
+  {
+    "zona": "PVR01",
+    "region": "Occidente",
+    "usuario": "50024",
+    "plataforma": "HCM",
+    "startTime": "2026-08-10T23:07:07.426Z",
+    "endTime": "2026-08-10T23:20:34.426Z",
+    "sessionTimeSeconds": 807
+  },
+  {
+    "zona": "GDL08",
+    "region": "Occidente",
+    "usuario": "50019",
+    "plataforma": "HCM",
+    "startTime": "2026-08-11T03:19:23.919Z",
+    "endTime": "2026-08-11T03:21:43.919Z",
+    "sessionTimeSeconds": 140
+  },
+  {
+    "zona": "MID01",
+    "region": "Sureste",
+    "usuario": "50075",
+    "plataforma": "GCA",
+    "startTime": "2026-08-11T09:11:09.393Z",
+    "endTime": "2026-08-11T09:12:41.393Z",
+    "sessionTimeSeconds": 92
+  },
+  {
+    "zona": "QRO01",
+    "region": "Centro",
+    "usuario": "50076",
+    "plataforma": "HCM",
+    "startTime": "2026-08-11T14:18:56.051Z",
+    "endTime": "2026-08-11T14:31:56.051Z",
+    "sessionTimeSeconds": 780
+  },
+  {
+    "zona": "MZT01",
+    "region": "Noroeste",
+    "usuario": "50062",
+    "plataforma": "HCM",
+    "startTime": "2026-08-11T16:48:53.417Z",
+    "endTime": "2026-08-11T16:56:58.417Z",
+    "sessionTimeSeconds": 485
+  },
+  {
+    "zona": "MID01",
+    "region": "Sureste",
+    "usuario": "50037",
+    "plataforma": "HCM",
+    "startTime": "2026-08-11T19:09:29.671Z",
+    "endTime": "2026-08-11T19:12:34.671Z",
+    "sessionTimeSeconds": 185
+  },
+  {
+    "zona": "DGO01",
+    "region": "Norte",
+    "usuario": "50045",
+    "plataforma": "HCM",
+    "startTime": "2026-08-11T23:05:40.887Z",
+    "endTime": "2026-08-11T23:22:54.887Z",
+    "sessionTimeSeconds": 1034
+  },
+  {
+    "zona": "QRO01",
+    "region": "Centro",
+    "usuario": "50076",
+    "plataforma": "GCA",
+    "startTime": "2026-08-12T04:04:05.078Z",
+    "endTime": "2026-08-12T04:16:48.078Z",
+    "sessionTimeSeconds": 763
+  },
+  {
+    "zona": "GDL01",
+    "region": "Occidente",
+    "usuario": "50031",
+    "plataforma": "GCA",
+    "startTime": "2026-08-12T06:35:43.960Z",
+    "endTime": "2026-08-12T06:47:59.960Z",
+    "sessionTimeSeconds": 736
+  },
+  {
+    "zona": "GDL08",
+    "region": "Occidente",
+    "usuario": "50033",
+    "plataforma": "GCA",
+    "startTime": "2026-08-12T09:03:37.585Z",
+    "endTime": "2026-08-12T09:09:14.585Z",
+    "sessionTimeSeconds": 337
+  },
+  {
+    "zona": "PCA01",
+    "region": "Centro",
+    "usuario": "50028",
+    "plataforma": "HCM",
+    "startTime": "2026-08-12T10:42:37.675Z",
+    "endTime": "2026-08-12T10:51:33.675Z",
+    "sessionTimeSeconds": 536
+  },
+  {
+    "zona": "TIJ01",
+    "region": "Noroeste",
+    "usuario": "50048",
+    "plataforma": "GCA",
+    "startTime": "2026-08-12T11:32:37.134Z",
+    "endTime": "2026-08-12T11:48:59.134Z",
+    "sessionTimeSeconds": 982
+  },
+  {
+    "zona": "ACA01",
+    "region": "Centro",
+    "usuario": "50002",
+    "plataforma": "GCA",
+    "startTime": "2026-08-12T17:55:48.976Z",
+    "endTime": "2026-08-12T18:02:21.976Z",
+    "sessionTimeSeconds": 393
+  },
+  {
+    "zona": "TIJ01",
+    "region": "Noroeste",
+    "usuario": "50001",
+    "plataforma": "GCA",
+    "startTime": "2026-08-13T03:27:55.348Z",
+    "endTime": "2026-08-13T03:32:46.348Z",
+    "sessionTimeSeconds": 291
+  },
+  {
+    "zona": "TRC01",
+    "region": "Norte",
+    "usuario": "50056",
+    "plataforma": "HCM",
+    "startTime": "2026-08-13T06:59:20.898Z",
+    "endTime": "2026-08-13T07:15:46.898Z",
+    "sessionTimeSeconds": 986
+  },
+  {
+    "zona": "AGU01",
+    "region": "Occidente",
+    "usuario": "50069",
+    "plataforma": "GCA",
+    "startTime": "2026-08-13T08:55:58.184Z",
+    "endTime": "2026-08-13T09:11:16.184Z",
+    "sessionTimeSeconds": 918
+  },
+  {
+    "zona": "TLC01",
+    "region": "Centro",
+    "usuario": "50057",
+    "plataforma": "GCA",
+    "startTime": "2026-08-13T13:27:47.629Z",
+    "endTime": "2026-08-13T13:44:11.629Z",
+    "sessionTimeSeconds": 984
+  },
+  {
+    "zona": "MZT01",
+    "region": "Noroeste",
+    "usuario": "50062",
+    "plataforma": "HCM",
+    "startTime": "2026-08-14T01:39:55.844Z",
+    "endTime": "2026-08-14T01:41:29.844Z",
+    "sessionTimeSeconds": 94
+  },
+  {
+    "zona": "VSA01",
+    "region": "Sureste",
+    "usuario": "50057",
+    "plataforma": "HCM",
+    "startTime": "2026-08-14T02:51:24.816Z",
+    "endTime": "2026-08-14T03:02:37.816Z",
+    "sessionTimeSeconds": 673
+  },
+  {
+    "zona": "CUL01",
+    "region": "Noroeste",
+    "usuario": "50002",
+    "plataforma": "GCA",
+    "startTime": "2026-08-14T12:07:13.959Z",
+    "endTime": "2026-08-14T12:10:24.959Z",
+    "sessionTimeSeconds": 191
+  },
+  {
+    "zona": "PCA01",
+    "region": "Centro",
+    "usuario": "50008",
+    "plataforma": "HCM",
+    "startTime": "2026-08-14T13:48:11.826Z",
+    "endTime": "2026-08-14T13:54:06.826Z",
+    "sessionTimeSeconds": 355
+  },
+  {
+    "zona": "ENS01",
+    "region": "Noroeste",
+    "usuario": "50060",
+    "plataforma": "HCM",
+    "startTime": "2026-08-14T16:53:19.565Z",
+    "endTime": "2026-08-14T17:11:46.565Z",
+    "sessionTimeSeconds": 1107
+  },
+  {
+    "zona": "ACA01",
+    "region": "Centro",
+    "usuario": "50082",
+    "plataforma": "HCM",
+    "startTime": "2026-08-14T22:27:27.976Z",
+    "endTime": "2026-08-14T22:39:17.976Z",
+    "sessionTimeSeconds": 710
+  },
+  {
+    "zona": "HMO01",
+    "region": "Noroeste",
+    "usuario": "50062",
+    "plataforma": "GCA",
+    "startTime": "2026-08-14T22:45:45.678Z",
+    "endTime": "2026-08-14T22:46:32.678Z",
+    "sessionTimeSeconds": 47
+  },
+  {
+    "zona": "TGZ01",
+    "region": "Sureste",
+    "usuario": "50036",
+    "plataforma": "GCA",
+    "startTime": "2026-08-15T01:33:54.316Z",
+    "endTime": "2026-08-15T01:34:51.316Z",
+    "sessionTimeSeconds": 57
+  },
+  {
+    "zona": "CUN01",
+    "region": "Sureste",
+    "usuario": "50079",
+    "plataforma": "HCM",
+    "startTime": "2026-08-15T02:31:53.581Z",
+    "endTime": "2026-08-15T02:47:14.581Z",
+    "sessionTimeSeconds": 921
+  },
+  {
+    "zona": "GDL02",
+    "region": "Occidente",
+    "usuario": "50043",
+    "plataforma": "GCA",
+    "startTime": "2026-08-15T02:47:50.191Z",
+    "endTime": "2026-08-15T02:55:40.191Z",
+    "sessionTimeSeconds": 470
+  },
+  {
+    "zona": "PCA01",
+    "region": "Centro",
+    "usuario": "50040",
+    "plataforma": "GCA",
+    "startTime": "2026-08-15T03:11:56.790Z",
+    "endTime": "2026-08-15T03:15:39.790Z",
+    "sessionTimeSeconds": 223
+  },
+  {
+    "zona": "CUN01",
+    "region": "Sureste",
+    "usuario": "50018",
+    "plataforma": "HCM",
+    "startTime": "2026-08-15T06:02:31.814Z",
+    "endTime": "2026-08-15T06:21:32.814Z",
+    "sessionTimeSeconds": 1141
+  },
+  {
+    "zona": "QRO01",
+    "region": "Centro",
+    "usuario": "50018",
+    "plataforma": "HCM",
+    "startTime": "2026-08-15T13:06:10.248Z",
+    "endTime": "2026-08-15T13:13:08.248Z",
+    "sessionTimeSeconds": 418
+  },
+  {
+    "zona": "OAX01",
+    "region": "Centro",
+    "usuario": "50075",
+    "plataforma": "GCA",
+    "startTime": "2026-08-15T21:19:18.527Z",
+    "endTime": "2026-08-15T21:23:43.527Z",
+    "sessionTimeSeconds": 265
+  },
+  {
+    "zona": "VER01",
+    "region": "Sureste",
+    "usuario": "50048",
+    "plataforma": "HCM",
+    "startTime": "2026-08-16T01:40:15.048Z",
+    "endTime": "2026-08-16T01:42:34.048Z",
+    "sessionTimeSeconds": 139
+  },
+  {
+    "zona": "VER01",
+    "region": "Sureste",
+    "usuario": "50038",
+    "plataforma": "HCM",
+    "startTime": "2026-08-16T02:13:25.920Z",
+    "endTime": "2026-08-16T02:19:04.920Z",
+    "sessionTimeSeconds": 339
+  },
+  {
+    "zona": "PVR01",
+    "region": "Occidente",
+    "usuario": "50074",
+    "plataforma": "HCM",
+    "startTime": "2026-08-16T02:49:45.026Z",
+    "endTime": "2026-08-16T02:51:17.026Z",
+    "sessionTimeSeconds": 92
+  },
+  {
+    "zona": "CUU01",
+    "region": "Norte",
+    "usuario": "50022",
+    "plataforma": "HCM",
+    "startTime": "2026-08-16T04:48:12.019Z",
+    "endTime": "2026-08-16T04:57:00.019Z",
+    "sessionTimeSeconds": 528
+  },
+  {
+    "zona": "NLD01",
+    "region": "Norte",
+    "usuario": "50061",
+    "plataforma": "HCM",
+    "startTime": "2026-08-17T02:02:04.262Z",
+    "endTime": "2026-08-17T02:14:15.262Z",
+    "sessionTimeSeconds": 731
+  },
+  {
+    "zona": "MTY01",
+    "region": "Norte",
+    "usuario": "50024",
+    "plataforma": "GCA",
+    "startTime": "2026-08-17T11:54:45.855Z",
+    "endTime": "2026-08-17T12:06:36.855Z",
+    "sessionTimeSeconds": 711
+  },
+  {
+    "zona": "MZT01",
+    "region": "Noroeste",
+    "usuario": "50057",
+    "plataforma": "HCM",
+    "startTime": "2026-08-18T00:43:24.479Z",
+    "endTime": "2026-08-18T00:59:26.479Z",
+    "sessionTimeSeconds": 962
+  },
+  {
+    "zona": "PBC01",
+    "region": "Centro",
+    "usuario": "50013",
+    "plataforma": "GCA",
+    "startTime": "2026-08-18T09:27:00.379Z",
+    "endTime": "2026-08-18T09:45:43.379Z",
+    "sessionTimeSeconds": 1123
+  },
+  {
+    "zona": "PVR01",
+    "region": "Occidente",
+    "usuario": "50039",
+    "plataforma": "GCA",
+    "startTime": "2026-08-18T11:04:38.929Z",
+    "endTime": "2026-08-18T11:06:01.929Z",
+    "sessionTimeSeconds": 83
+  },
+  {
+    "zona": "CUL01",
+    "region": "Noroeste",
+    "usuario": "50004",
+    "plataforma": "HCM",
+    "startTime": "2026-08-18T12:35:46.010Z",
+    "endTime": "2026-08-18T12:52:54.010Z",
+    "sessionTimeSeconds": 1028
+  },
+  {
+    "zona": "REX01",
+    "region": "Norte",
+    "usuario": "50007",
+    "plataforma": "GCA",
+    "startTime": "2026-08-18T22:28:29.807Z",
+    "endTime": "2026-08-18T22:36:42.807Z",
+    "sessionTimeSeconds": 493
+  },
+  {
+    "zona": "CVJ01",
+    "region": "Centro",
+    "usuario": "50003",
+    "plataforma": "HCM",
+    "startTime": "2026-08-19T10:06:07.110Z",
+    "endTime": "2026-08-19T10:14:31.110Z",
+    "sessionTimeSeconds": 504
+  },
+  {
+    "zona": "PVR01",
+    "region": "Occidente",
+    "usuario": "50026",
+    "plataforma": "HCM",
+    "startTime": "2026-08-19T11:52:31.518Z",
+    "endTime": "2026-08-19T12:05:14.518Z",
+    "sessionTimeSeconds": 763
+  },
+  {
+    "zona": "REX01",
+    "region": "Norte",
+    "usuario": "50075",
+    "plataforma": "HCM",
+    "startTime": "2026-08-20T01:44:47.777Z",
+    "endTime": "2026-08-20T02:01:17.777Z",
+    "sessionTimeSeconds": 990
+  },
+  {
+    "zona": "MID01",
+    "region": "Sureste",
+    "usuario": "50057",
+    "plataforma": "HCM",
+    "startTime": "2026-08-20T07:40:03.701Z",
+    "endTime": "2026-08-20T07:48:50.701Z",
+    "sessionTimeSeconds": 527
+  },
+  {
+    "zona": "MLM01",
+    "region": "Occidente",
+    "usuario": "50025",
+    "plataforma": "GCA",
+    "startTime": "2026-08-20T14:54:47.998Z",
+    "endTime": "2026-08-20T15:08:16.998Z",
+    "sessionTimeSeconds": 809
+  },
+  {
+    "zona": "GDL03",
+    "region": "Occidente",
+    "usuario": "50044",
+    "plataforma": "HCM",
+    "startTime": "2026-08-20T17:44:20.883Z",
+    "endTime": "2026-08-20T17:56:56.883Z",
+    "sessionTimeSeconds": 756
+  },
+  {
+    "zona": "CJS01",
+    "region": "Norte",
+    "usuario": "50005",
+    "plataforma": "GCA",
+    "startTime": "2026-08-20T18:00:37.984Z",
+    "endTime": "2026-08-20T18:09:55.984Z",
+    "sessionTimeSeconds": 558
+  },
+  {
+    "zona": "CEN01",
+    "region": "Noroeste",
+    "usuario": "50022",
+    "plataforma": "HCM",
+    "startTime": "2026-08-20T20:04:03.996Z",
+    "endTime": "2026-08-20T20:07:50.996Z",
+    "sessionTimeSeconds": 227
+  },
+  {
+    "zona": "JAL01",
+    "region": "Sureste",
+    "usuario": "50020",
+    "plataforma": "HCM",
+    "startTime": "2026-08-21T18:42:55.242Z",
+    "endTime": "2026-08-21T18:50:06.242Z",
+    "sessionTimeSeconds": 431
+  },
+  {
+    "zona": "TGZ01",
+    "region": "Sureste",
+    "usuario": "50019",
+    "plataforma": "GCA",
+    "startTime": "2026-08-21T23:18:21.525Z",
+    "endTime": "2026-08-21T23:36:29.525Z",
+    "sessionTimeSeconds": 1088
+  },
+  {
+    "zona": "DGO01",
+    "region": "Norte",
+    "usuario": "50075",
+    "plataforma": "GCA",
+    "startTime": "2026-08-22T08:02:34.755Z",
+    "endTime": "2026-08-22T08:20:13.755Z",
+    "sessionTimeSeconds": 1059
+  },
+  {
+    "zona": "ACA01",
+    "region": "Centro",
+    "usuario": "50063",
+    "plataforma": "HCM",
+    "startTime": "2026-08-22T13:39:54.068Z",
+    "endTime": "2026-08-22T13:54:43.068Z",
+    "sessionTimeSeconds": 889
+  },
+  {
+    "zona": "SLP01",
+    "region": "Centro",
+    "usuario": "50079",
+    "plataforma": "GCA",
+    "startTime": "2026-08-22T19:06:46.345Z",
+    "endTime": "2026-08-22T19:19:32.345Z",
+    "sessionTimeSeconds": 766
+  },
+  {
+    "zona": "IRA02",
+    "region": "Occidente",
+    "usuario": "50019",
+    "plataforma": "GCA",
+    "startTime": "2026-08-22T21:46:55.173Z",
+    "endTime": "2026-08-22T21:54:32.173Z",
+    "sessionTimeSeconds": 457
+  },
+  {
+    "zona": "MEX01",
+    "region": "Centro",
+    "usuario": "50027",
+    "plataforma": "GCA",
+    "startTime": "2026-08-22T22:24:41.034Z",
+    "endTime": "2026-08-22T22:40:00.034Z",
+    "sessionTimeSeconds": 919
+  },
+  {
+    "zona": "TRC01",
+    "region": "Norte",
+    "usuario": "50028",
+    "plataforma": "HCM",
+    "startTime": "2026-08-22T23:50:37.972Z",
+    "endTime": "2026-08-23T00:03:12.972Z",
+    "sessionTimeSeconds": 755
+  },
+  {
+    "zona": "LAP01",
+    "region": "Noroeste",
+    "usuario": "50039",
+    "plataforma": "GCA",
+    "startTime": "2026-08-23T12:16:14.862Z",
+    "endTime": "2026-08-23T12:25:08.862Z",
+    "sessionTimeSeconds": 534
+  },
+  {
+    "zona": "JAL01",
+    "region": "Sureste",
+    "usuario": "50035",
+    "plataforma": "GCA",
+    "startTime": "2026-08-23T14:02:46.026Z",
+    "endTime": "2026-08-23T14:13:15.026Z",
+    "sessionTimeSeconds": 629
+  },
+  {
+    "zona": "MID01",
+    "region": "Sureste",
+    "usuario": "50078",
+    "plataforma": "GCA",
+    "startTime": "2026-08-24T00:22:26.884Z",
+    "endTime": "2026-08-24T00:38:19.884Z",
+    "sessionTimeSeconds": 953
+  },
+  {
+    "zona": "TAM01",
+    "region": "Norte",
+    "usuario": "50007",
+    "plataforma": "GCA",
+    "startTime": "2026-08-24T03:16:21.343Z",
+    "endTime": "2026-08-24T03:25:31.343Z",
+    "sessionTimeSeconds": 550
+  },
+  {
+    "zona": "NLD01",
+    "region": "Norte",
+    "usuario": "50032",
+    "plataforma": "GCA",
+    "startTime": "2026-08-24T05:22:34.989Z",
+    "endTime": "2026-08-24T05:35:07.989Z",
+    "sessionTimeSeconds": 753
+  },
+  {
+    "zona": "VER01",
+    "region": "Sureste",
+    "usuario": "50078",
+    "plataforma": "GCA",
+    "startTime": "2026-08-24T06:07:54.023Z",
+    "endTime": "2026-08-24T06:18:22.023Z",
+    "sessionTimeSeconds": 628
+  },
+  {
+    "zona": "MTY01",
+    "region": "Norte",
+    "usuario": "50018",
+    "plataforma": "GCA",
+    "startTime": "2026-08-24T15:19:54.169Z",
+    "endTime": "2026-08-24T15:35:20.169Z",
+    "sessionTimeSeconds": 926
+  },
+  {
+    "zona": "QRO01",
+    "region": "Centro",
+    "usuario": "50055",
+    "plataforma": "GCA",
+    "startTime": "2026-08-24T19:39:05.015Z",
+    "endTime": "2026-08-24T19:49:32.015Z",
+    "sessionTimeSeconds": 627
+  },
+  {
+    "zona": "PVR01",
+    "region": "Occidente",
+    "usuario": "50007",
+    "plataforma": "GCA",
+    "startTime": "2026-08-25T01:32:31.351Z",
+    "endTime": "2026-08-25T01:39:47.351Z",
+    "sessionTimeSeconds": 436
+  },
+  {
+    "zona": "MZT01",
+    "region": "Noroeste",
+    "usuario": "50008",
+    "plataforma": "GCA",
+    "startTime": "2026-08-25T07:53:13.589Z",
+    "endTime": "2026-08-25T08:11:53.589Z",
+    "sessionTimeSeconds": 1120
+  },
+  {
+    "zona": "PCM01",
+    "region": "Sureste",
+    "usuario": "50064",
+    "plataforma": "GCA",
+    "startTime": "2026-08-25T09:59:34.778Z",
+    "endTime": "2026-08-25T10:15:29.778Z",
+    "sessionTimeSeconds": 955
+  },
+  {
+    "zona": "MTY02",
+    "region": "Norte",
+    "usuario": "50077",
+    "plataforma": "GCA",
+    "startTime": "2026-08-25T17:33:06.096Z",
+    "endTime": "2026-08-25T17:45:47.096Z",
+    "sessionTimeSeconds": 761
+  },
+  {
+    "zona": "MID01",
+    "region": "Sureste",
+    "usuario": "50009",
+    "plataforma": "GCA",
+    "startTime": "2026-08-25T17:38:40.258Z",
+    "endTime": "2026-08-25T17:55:54.258Z",
+    "sessionTimeSeconds": 1034
+  },
+  {
+    "zona": "GDL01",
+    "region": "Occidente",
+    "usuario": "50077",
+    "plataforma": "HCM",
+    "startTime": "2026-08-25T19:04:07.910Z",
+    "endTime": "2026-08-25T19:22:32.910Z",
+    "sessionTimeSeconds": 1105
+  },
+  {
+    "zona": "MEX03",
+    "region": "Centro",
+    "usuario": "50033",
+    "plataforma": "HCM",
+    "startTime": "2026-08-25T20:00:45.852Z",
+    "endTime": "2026-08-25T20:10:09.852Z",
+    "sessionTimeSeconds": 564
+  },
+  {
+    "zona": "QRO01",
+    "region": "Centro",
+    "usuario": "50063",
+    "plataforma": "GCA",
+    "startTime": "2026-08-26T12:15:56.864Z",
+    "endTime": "2026-08-26T12:20:06.864Z",
+    "sessionTimeSeconds": 250
+  },
+  {
+    "zona": "AGU01",
+    "region": "Occidente",
+    "usuario": "50065",
+    "plataforma": "HCM",
+    "startTime": "2026-08-26T14:22:46.492Z",
+    "endTime": "2026-08-26T14:26:25.492Z",
+    "sessionTimeSeconds": 219
+  },
+  {
+    "zona": "VER01",
+    "region": "Sureste",
+    "usuario": "50027",
+    "plataforma": "GCA",
+    "startTime": "2026-08-26T20:23:41.559Z",
+    "endTime": "2026-08-26T20:24:38.559Z",
+    "sessionTimeSeconds": 57
+  },
+  {
+    "zona": "CEL01",
+    "region": "Occidente",
+    "usuario": "50005",
+    "plataforma": "GCA",
+    "startTime": "2026-08-26T23:25:31.196Z",
+    "endTime": "2026-08-26T23:29:57.196Z",
+    "sessionTimeSeconds": 266
+  },
+  {
+    "zona": "VSA01",
+    "region": "Sureste",
+    "usuario": "50051",
+    "plataforma": "GCA",
+    "startTime": "2026-08-28T05:21:48.446Z",
+    "endTime": "2026-08-28T05:27:56.446Z",
+    "sessionTimeSeconds": 368
+  },
+  {
+    "zona": "QRO01",
+    "region": "Centro",
+    "usuario": "50013",
+    "plataforma": "GCA",
+    "startTime": "2026-08-28T14:02:19.778Z",
+    "endTime": "2026-08-28T14:06:52.778Z",
+    "sessionTimeSeconds": 273
+  },
+  {
+    "zona": "CRB01",
+    "region": "Sureste",
+    "usuario": "50002",
+    "plataforma": "GCA",
+    "startTime": "2026-08-28T16:19:32.229Z",
+    "endTime": "2026-08-28T16:25:25.229Z",
+    "sessionTimeSeconds": 353
+  },
+  {
+    "zona": "JAL01",
+    "region": "Sureste",
+    "usuario": "50019",
+    "plataforma": "GCA",
+    "startTime": "2026-08-29T10:20:56.420Z",
+    "endTime": "2026-08-29T10:31:53.420Z",
+    "sessionTimeSeconds": 657
+  },
+  {
+    "zona": "DGO01",
+    "region": "Norte",
+    "usuario": "50065",
+    "plataforma": "HCM",
+    "startTime": "2026-08-29T23:40:16.185Z",
+    "endTime": "2026-08-29T23:51:57.185Z",
+    "sessionTimeSeconds": 701
+  },
+  {
+    "zona": "MEX04",
+    "region": "Centro",
+    "usuario": "50004",
+    "plataforma": "HCM",
+    "startTime": "2026-08-30T03:09:16.819Z",
+    "endTime": "2026-08-30T03:11:08.819Z",
+    "sessionTimeSeconds": 112
+  },
+  {
+    "zona": "SLW01",
+    "region": "Norte",
+    "usuario": "50045",
+    "plataforma": "HCM",
+    "startTime": "2026-08-30T04:15:20.927Z",
+    "endTime": "2026-08-30T04:19:30.927Z",
+    "sessionTimeSeconds": 250
+  },
+  {
+    "zona": "PVR01",
+    "region": "Occidente",
+    "usuario": "50033",
+    "plataforma": "GCA",
+    "startTime": "2026-08-30T05:27:08.818Z",
+    "endTime": "2026-08-30T05:32:03.818Z",
+    "sessionTimeSeconds": 295
+  },
+  {
+    "zona": "SLW01",
+    "region": "Norte",
+    "usuario": "50050",
+    "plataforma": "HCM",
+    "startTime": "2026-08-30T10:34:38.226Z",
+    "endTime": "2026-08-30T10:39:01.226Z",
+    "sessionTimeSeconds": 263
+  },
+  {
+    "zona": "CJS01",
+    "region": "Norte",
+    "usuario": "50067",
+    "plataforma": "HCM",
+    "startTime": "2026-08-30T15:58:17.424Z",
+    "endTime": "2026-08-30T16:14:04.424Z",
+    "sessionTimeSeconds": 947
+  },
+  {
+    "zona": "SLW01",
+    "region": "Norte",
+    "usuario": "50077",
+    "plataforma": "HCM",
+    "startTime": "2026-08-30T20:12:57.333Z",
+    "endTime": "2026-08-30T20:18:23.333Z",
+    "sessionTimeSeconds": 326
+  },
+  {
+    "zona": "BJX01",
+    "region": "Occidente",
+    "usuario": "50081",
+    "plataforma": "HCM",
+    "startTime": "2026-08-30T20:24:29.238Z",
+    "endTime": "2026-08-30T20:33:53.238Z",
+    "sessionTimeSeconds": 564
+  },
+  {
+    "zona": "MZT01",
+    "region": "Noroeste",
+    "usuario": "50046",
+    "plataforma": "HCM",
+    "startTime": "2026-08-30T22:13:10.733Z",
+    "endTime": "2026-08-30T22:26:27.733Z",
+    "sessionTimeSeconds": 797
+  },
+  {
+    "zona": "TLC01",
+    "region": "Centro",
+    "usuario": "50028",
+    "plataforma": "GCA",
+    "startTime": "2026-08-31T00:48:42.228Z",
+    "endTime": "2026-08-31T00:54:39.228Z",
+    "sessionTimeSeconds": 357
+  },
+  {
+    "zona": "ENS01",
+    "region": "Noroeste",
+    "usuario": "50007",
+    "plataforma": "HCM",
+    "startTime": "2026-08-31T05:47:03.605Z",
+    "endTime": "2026-08-31T05:52:24.605Z",
+    "sessionTimeSeconds": 321
+  },
+  {
+    "zona": "PVR01",
+    "region": "Occidente",
+    "usuario": "50069",
+    "plataforma": "HCM",
+    "startTime": "2026-08-31T08:04:43.637Z",
+    "endTime": "2026-08-31T08:23:03.637Z",
+    "sessionTimeSeconds": 1100
+  },
+  {
+    "zona": "PCA01",
+    "region": "Centro",
+    "usuario": "50041",
+    "plataforma": "HCM",
+    "startTime": "2026-09-01T07:26:36.973Z",
+    "endTime": "2026-09-01T07:33:08.973Z",
+    "sessionTimeSeconds": 392
+  },
+  {
+    "zona": "MLM01",
+    "region": "Occidente",
+    "usuario": "50033",
+    "plataforma": "GCA",
+    "startTime": "2026-09-01T15:03:44.424Z",
+    "endTime": "2026-09-01T15:09:32.424Z",
+    "sessionTimeSeconds": 348
+  },
+  {
+    "zona": "GDL01",
+    "region": "Occidente",
+    "usuario": "50072",
+    "plataforma": "GCA",
+    "startTime": "2026-09-01T23:57:25.854Z",
+    "endTime": "2026-09-02T00:10:19.854Z",
+    "sessionTimeSeconds": 774
+  },
+  {
+    "zona": "SLW01",
+    "region": "Norte",
+    "usuario": "50081",
+    "plataforma": "GCA",
+    "startTime": "2026-09-02T00:41:18.602Z",
+    "endTime": "2026-09-02T00:58:31.602Z",
+    "sessionTimeSeconds": 1033
+  },
+  {
+    "zona": "MEX02",
+    "region": "Centro",
+    "usuario": "50051",
+    "plataforma": "GCA",
+    "startTime": "2026-09-02T01:05:04.728Z",
+    "endTime": "2026-09-02T01:07:30.728Z",
+    "sessionTimeSeconds": 146
+  },
+  {
+    "zona": "TGZ01",
+    "region": "Sureste",
+    "usuario": "50017",
+    "plataforma": "HCM",
+    "startTime": "2026-09-02T02:54:57.986Z",
+    "endTime": "2026-09-02T03:09:44.986Z",
+    "sessionTimeSeconds": 887
+  },
+  {
+    "zona": "PBC01",
+    "region": "Centro",
+    "usuario": "50013",
+    "plataforma": "HCM",
+    "startTime": "2026-09-02T15:09:03.090Z",
+    "endTime": "2026-09-02T15:10:47.090Z",
+    "sessionTimeSeconds": 104
+  },
+  {
+    "zona": "CJS01",
+    "region": "Norte",
+    "usuario": "50037",
+    "plataforma": "GCA",
+    "startTime": "2026-09-02T20:00:01.840Z",
+    "endTime": "2026-09-02T20:07:51.840Z",
+    "sessionTimeSeconds": 470
+  },
+  {
+    "zona": "MEX03",
+    "region": "Centro",
+    "usuario": "50066",
+    "plataforma": "HCM",
+    "startTime": "2026-09-02T22:35:00.053Z",
+    "endTime": "2026-09-02T22:39:17.053Z",
+    "sessionTimeSeconds": 257
+  },
+  {
+    "zona": "CJS01",
+    "region": "Norte",
+    "usuario": "50037",
+    "plataforma": "HCM",
+    "startTime": "2026-09-03T07:27:12.034Z",
+    "endTime": "2026-09-03T07:43:35.034Z",
+    "sessionTimeSeconds": 983
+  },
+  {
+    "zona": "QRO01",
+    "region": "Centro",
+    "usuario": "50066",
+    "plataforma": "HCM",
+    "startTime": "2026-09-03T07:37:02.450Z",
+    "endTime": "2026-09-03T07:43:12.450Z",
+    "sessionTimeSeconds": 370
+  },
+  {
+    "zona": "PCA01",
+    "region": "Centro",
+    "usuario": "50044",
+    "plataforma": "GCA",
+    "startTime": "2026-09-03T16:53:04.298Z",
+    "endTime": "2026-09-03T16:55:38.298Z",
+    "sessionTimeSeconds": 154
+  },
+  {
+    "zona": "MEX02",
+    "region": "Centro",
+    "usuario": "50021",
+    "plataforma": "GCA",
+    "startTime": "2026-09-04T05:42:19.417Z",
+    "endTime": "2026-09-04T05:47:12.417Z",
+    "sessionTimeSeconds": 293
+  },
+  {
+    "zona": "REX01",
+    "region": "Norte",
+    "usuario": "50024",
+    "plataforma": "HCM",
+    "startTime": "2026-09-04T08:03:05.351Z",
+    "endTime": "2026-09-04T08:12:28.351Z",
+    "sessionTimeSeconds": 563
+  },
+  {
+    "zona": "MEX01",
+    "region": "Centro",
+    "usuario": "50072",
+    "plataforma": "HCM",
+    "startTime": "2026-09-04T08:29:37.154Z",
+    "endTime": "2026-09-04T08:45:58.154Z",
+    "sessionTimeSeconds": 981
+  },
+  {
+    "zona": "CUN01",
+    "region": "Sureste",
+    "usuario": "50078",
+    "plataforma": "HCM",
+    "startTime": "2026-09-04T08:36:06.127Z",
+    "endTime": "2026-09-04T08:39:56.127Z",
+    "sessionTimeSeconds": 230
+  },
+  {
+    "zona": "TAM01",
+    "region": "Norte",
+    "usuario": "50019",
+    "plataforma": "HCM",
+    "startTime": "2026-09-04T09:25:54.298Z",
+    "endTime": "2026-09-04T09:27:31.298Z",
+    "sessionTimeSeconds": 97
+  },
+  {
+    "zona": "MEX14",
+    "region": "Centro",
+    "usuario": "50012",
+    "plataforma": "HCM",
+    "startTime": "2026-09-04T13:32:55.401Z",
+    "endTime": "2026-09-04T13:43:25.401Z",
+    "sessionTimeSeconds": 630
+  },
+  {
+    "zona": "GDL08",
+    "region": "Occidente",
+    "usuario": "50020",
+    "plataforma": "GCA",
+    "startTime": "2026-09-05T02:28:45.295Z",
+    "endTime": "2026-09-05T02:33:03.295Z",
+    "sessionTimeSeconds": 258
+  },
+  {
+    "zona": "GDL03",
+    "region": "Occidente",
+    "usuario": "50010",
+    "plataforma": "GCA",
+    "startTime": "2026-09-05T04:36:36.997Z",
+    "endTime": "2026-09-05T04:42:34.997Z",
+    "sessionTimeSeconds": 358
+  },
+  {
+    "zona": "TIJ01",
+    "region": "Noroeste",
+    "usuario": "50033",
+    "plataforma": "GCA",
+    "startTime": "2026-09-05T05:25:36.188Z",
+    "endTime": "2026-09-05T05:40:42.188Z",
+    "sessionTimeSeconds": 906
+  },
+  {
+    "zona": "GDL08",
+    "region": "Occidente",
+    "usuario": "50046",
+    "plataforma": "HCM",
+    "startTime": "2026-09-05T07:36:45.735Z",
+    "endTime": "2026-09-05T07:43:14.735Z",
+    "sessionTimeSeconds": 389
+  },
+  {
+    "zona": "MTY01",
+    "region": "Norte",
+    "usuario": "50017",
+    "plataforma": "HCM",
+    "startTime": "2026-09-05T08:35:58.904Z",
+    "endTime": "2026-09-05T08:42:39.904Z",
+    "sessionTimeSeconds": 401
+  },
+  {
+    "zona": "SLW01",
+    "region": "Norte",
+    "usuario": "50003",
+    "plataforma": "GCA",
+    "startTime": "2026-09-05T09:43:16.365Z",
+    "endTime": "2026-09-05T09:49:00.365Z",
+    "sessionTimeSeconds": 344
+  },
+  {
+    "zona": "GDL03",
+    "region": "Occidente",
+    "usuario": "50042",
+    "plataforma": "HCM",
+    "startTime": "2026-09-07T11:58:12.325Z",
+    "endTime": "2026-09-07T12:15:16.325Z",
+    "sessionTimeSeconds": 1024
+  },
+  {
+    "zona": "BJX01",
+    "region": "Occidente",
+    "usuario": "50078",
+    "plataforma": "GCA",
+    "startTime": "2026-09-07T12:31:02.944Z",
+    "endTime": "2026-09-07T12:36:23.944Z",
+    "sessionTimeSeconds": 321
+  },
+  {
+    "zona": "SLP01",
+    "region": "Centro",
+    "usuario": "50003",
+    "plataforma": "HCM",
+    "startTime": "2026-09-07T16:51:42.557Z",
+    "endTime": "2026-09-07T17:08:15.557Z",
+    "sessionTimeSeconds": 993
+  },
+  {
+    "zona": "CEN01",
+    "region": "Noroeste",
+    "usuario": "50020",
+    "plataforma": "GCA",
+    "startTime": "2026-09-07T19:57:31.892Z",
+    "endTime": "2026-09-07T20:01:25.892Z",
+    "sessionTimeSeconds": 234
+  },
+  {
+    "zona": "MEX14",
+    "region": "Centro",
+    "usuario": "50024",
+    "plataforma": "GCA",
+    "startTime": "2026-09-08T23:07:13.768Z",
+    "endTime": "2026-09-08T23:17:28.768Z",
+    "sessionTimeSeconds": 615
+  },
+  {
+    "zona": "TGZ01",
+    "region": "Sureste",
+    "usuario": "50053",
+    "plataforma": "HCM",
+    "startTime": "2026-09-09T03:50:56.636Z",
+    "endTime": "2026-09-09T03:56:08.636Z",
+    "sessionTimeSeconds": 312
+  },
+  {
+    "zona": "NLD01",
+    "region": "Norte",
+    "usuario": "50041",
+    "plataforma": "HCM",
+    "startTime": "2026-09-09T03:52:44.162Z",
+    "endTime": "2026-09-09T04:06:52.162Z",
+    "sessionTimeSeconds": 848
+  },
+  {
+    "zona": "PCA01",
+    "region": "Centro",
+    "usuario": "50072",
+    "plataforma": "HCM",
+    "startTime": "2026-09-09T04:58:05.605Z",
+    "endTime": "2026-09-09T05:13:34.605Z",
+    "sessionTimeSeconds": 929
+  },
+  {
+    "zona": "PVR01",
+    "region": "Occidente",
+    "usuario": "50025",
+    "plataforma": "HCM",
+    "startTime": "2026-09-09T06:03:19.349Z",
+    "endTime": "2026-09-09T06:08:00.349Z",
+    "sessionTimeSeconds": 281
+  },
+  {
+    "zona": "GDL02",
+    "region": "Occidente",
+    "usuario": "50075",
+    "plataforma": "HCM",
+    "startTime": "2026-09-09T07:13:18.945Z",
+    "endTime": "2026-09-09T07:25:05.945Z",
+    "sessionTimeSeconds": 707
+  },
+  {
+    "zona": "CUU01",
+    "region": "Norte",
+    "usuario": "50057",
+    "plataforma": "HCM",
+    "startTime": "2026-09-10T01:07:08.922Z",
+    "endTime": "2026-09-10T01:16:13.922Z",
+    "sessionTimeSeconds": 545
+  },
+  {
+    "zona": "QRO01",
+    "region": "Centro",
+    "usuario": "50060",
+    "plataforma": "HCM",
+    "startTime": "2026-09-10T08:56:29.302Z",
+    "endTime": "2026-09-10T09:02:34.302Z",
+    "sessionTimeSeconds": 365
+  },
+  {
+    "zona": "VSA01",
+    "region": "Sureste",
+    "usuario": "50009",
+    "plataforma": "GCA",
+    "startTime": "2026-09-11T01:50:21.586Z",
+    "endTime": "2026-09-11T02:08:06.586Z",
+    "sessionTimeSeconds": 1065
+  },
+  {
+    "zona": "TIJ01",
+    "region": "Noroeste",
+    "usuario": "50073",
+    "plataforma": "GCA",
+    "startTime": "2026-09-11T09:16:26.353Z",
+    "endTime": "2026-09-11T09:29:57.353Z",
+    "sessionTimeSeconds": 811
+  },
+  {
+    "zona": "COA01",
+    "region": "Sureste",
+    "usuario": "50069",
+    "plataforma": "HCM",
+    "startTime": "2026-09-11T12:28:51.595Z",
+    "endTime": "2026-09-11T12:43:00.595Z",
+    "sessionTimeSeconds": 849
+  },
+  {
+    "zona": "SLP01",
+    "region": "Centro",
+    "usuario": "50075",
+    "plataforma": "GCA",
+    "startTime": "2026-09-12T06:21:15.437Z",
+    "endTime": "2026-09-12T06:22:20.437Z",
+    "sessionTimeSeconds": 65
+  },
+  {
+    "zona": "GDL01",
+    "region": "Occidente",
+    "usuario": "50042",
+    "plataforma": "GCA",
+    "startTime": "2026-09-12T12:42:02.400Z",
+    "endTime": "2026-09-12T12:53:55.400Z",
+    "sessionTimeSeconds": 713
+  },
+  {
+    "zona": "IRA02",
+    "region": "Occidente",
+    "usuario": "50082",
+    "plataforma": "GCA",
+    "startTime": "2026-09-13T09:49:17.591Z",
+    "endTime": "2026-09-13T09:52:36.591Z",
+    "sessionTimeSeconds": 199
+  },
+  {
+    "zona": "MLM01",
+    "region": "Occidente",
+    "usuario": "50068",
+    "plataforma": "HCM",
+    "startTime": "2026-09-13T13:39:05.087Z",
+    "endTime": "2026-09-13T13:47:18.087Z",
+    "sessionTimeSeconds": 493
+  },
+  {
+    "zona": "MXL01",
+    "region": "Noroeste",
+    "usuario": "50059",
+    "plataforma": "HCM",
+    "startTime": "2026-09-13T18:44:15.395Z",
+    "endTime": "2026-09-13T18:48:00.395Z",
+    "sessionTimeSeconds": 225
+  },
+  {
+    "zona": "SLP01",
+    "region": "Centro",
+    "usuario": "50013",
+    "plataforma": "HCM",
+    "startTime": "2026-09-13T20:04:16.562Z",
+    "endTime": "2026-09-13T20:06:30.562Z",
+    "sessionTimeSeconds": 134
+  },
+  {
+    "zona": "CRB01",
+    "region": "Sureste",
+    "usuario": "50032",
+    "plataforma": "HCM",
+    "startTime": "2026-09-13T21:47:32.116Z",
+    "endTime": "2026-09-13T22:00:03.116Z",
+    "sessionTimeSeconds": 751
+  },
+  {
+    "zona": "PCA01",
+    "region": "Centro",
+    "usuario": "50011",
+    "plataforma": "HCM",
+    "startTime": "2026-09-14T00:41:55.179Z",
+    "endTime": "2026-09-14T00:46:42.179Z",
+    "sessionTimeSeconds": 287
+  },
+  {
+    "zona": "NLD01",
+    "region": "Norte",
+    "usuario": "50075",
+    "plataforma": "HCM",
+    "startTime": "2026-09-14T05:17:22.458Z",
+    "endTime": "2026-09-14T05:30:10.458Z",
+    "sessionTimeSeconds": 768
+  },
+  {
+    "zona": "MLM01",
+    "region": "Occidente",
+    "usuario": "50000",
+    "plataforma": "GCA",
+    "startTime": "2026-09-14T06:51:46.678Z",
+    "endTime": "2026-09-14T07:02:38.678Z",
+    "sessionTimeSeconds": 652
+  },
+  {
+    "zona": "COA01",
+    "region": "Sureste",
+    "usuario": "50017",
+    "plataforma": "GCA",
+    "startTime": "2026-09-14T08:41:07.735Z",
+    "endTime": "2026-09-14T08:52:45.735Z",
+    "sessionTimeSeconds": 698
+  },
+  {
+    "zona": "MEX14",
+    "region": "Centro",
+    "usuario": "50001",
+    "plataforma": "GCA",
+    "startTime": "2026-09-14T09:42:50.177Z",
+    "endTime": "2026-09-14T09:58:19.177Z",
+    "sessionTimeSeconds": 929
+  },
+  {
+    "zona": "CUL01",
+    "region": "Noroeste",
+    "usuario": "50051",
+    "plataforma": "GCA",
+    "startTime": "2026-09-14T12:22:53.889Z",
+    "endTime": "2026-09-14T12:24:46.889Z",
+    "sessionTimeSeconds": 113
+  },
+  {
+    "zona": "TGZ01",
+    "region": "Sureste",
+    "usuario": "50065",
+    "plataforma": "HCM",
+    "startTime": "2026-09-14T18:39:10.267Z",
+    "endTime": "2026-09-14T18:50:11.267Z",
+    "sessionTimeSeconds": 661
+  },
+  {
+    "zona": "MEX03",
+    "region": "Centro",
+    "usuario": "50015",
+    "plataforma": "HCM",
+    "startTime": "2026-09-14T23:11:07.247Z",
+    "endTime": "2026-09-14T23:20:18.247Z",
+    "sessionTimeSeconds": 551
+  },
+  {
+    "zona": "MEX01",
+    "region": "Centro",
+    "usuario": "50027",
+    "plataforma": "GCA",
+    "startTime": "2026-09-14T23:27:36.058Z",
+    "endTime": "2026-09-14T23:40:52.058Z",
+    "sessionTimeSeconds": 796
+  },
+  {
+    "zona": "DGO01",
+    "region": "Norte",
+    "usuario": "50009",
+    "plataforma": "HCM",
+    "startTime": "2026-09-15T08:33:43.333Z",
+    "endTime": "2026-09-15T08:36:51.333Z",
+    "sessionTimeSeconds": 188
+  },
+  {
+    "zona": "GDL02",
+    "region": "Occidente",
+    "usuario": "50077",
+    "plataforma": "HCM",
+    "startTime": "2026-09-15T23:02:46.308Z",
+    "endTime": "2026-09-15T23:07:29.308Z",
+    "sessionTimeSeconds": 283
+  },
+  {
+    "zona": "GDL02",
+    "region": "Occidente",
+    "usuario": "50073",
+    "plataforma": "HCM",
+    "startTime": "2026-09-16T01:28:34.029Z",
+    "endTime": "2026-09-16T01:37:16.029Z",
+    "sessionTimeSeconds": 522
+  },
+  {
+    "zona": "CEL01",
+    "region": "Occidente",
+    "usuario": "50057",
+    "plataforma": "GCA",
+    "startTime": "2026-09-16T04:31:16.588Z",
+    "endTime": "2026-09-16T04:33:18.588Z",
+    "sessionTimeSeconds": 122
+  },
+  {
+    "zona": "MEX04",
+    "region": "Centro",
+    "usuario": "50045",
+    "plataforma": "GCA",
+    "startTime": "2026-09-16T05:04:42.020Z",
+    "endTime": "2026-09-16T05:18:55.020Z",
+    "sessionTimeSeconds": 853
+  },
+  {
+    "zona": "GDL08",
+    "region": "Occidente",
+    "usuario": "50081",
+    "plataforma": "GCA",
+    "startTime": "2026-09-16T15:31:03.904Z",
+    "endTime": "2026-09-16T15:34:07.904Z",
+    "sessionTimeSeconds": 184
+  },
+  {
+    "zona": "SLW01",
+    "region": "Norte",
+    "usuario": "50029",
+    "plataforma": "GCA",
+    "startTime": "2026-09-16T18:58:08.021Z",
+    "endTime": "2026-09-16T19:05:07.021Z",
+    "sessionTimeSeconds": 419
+  },
+  {
+    "zona": "ACA01",
+    "region": "Centro",
+    "usuario": "50018",
+    "plataforma": "HCM",
+    "startTime": "2026-09-17T01:43:11.222Z",
+    "endTime": "2026-09-17T01:44:15.222Z",
+    "sessionTimeSeconds": 64
+  },
+  {
+    "zona": "MTY03",
+    "region": "Norte",
+    "usuario": "50055",
+    "plataforma": "HCM",
+    "startTime": "2026-09-17T05:19:29.470Z",
+    "endTime": "2026-09-17T05:33:18.470Z",
+    "sessionTimeSeconds": 829
+  },
+  {
+    "zona": "SLP01",
+    "region": "Centro",
+    "usuario": "50072",
+    "plataforma": "HCM",
+    "startTime": "2026-09-17T09:33:45.588Z",
+    "endTime": "2026-09-17T09:43:32.588Z",
+    "sessionTimeSeconds": 587
+  },
+  {
+    "zona": "LAP01",
+    "region": "Noroeste",
+    "usuario": "50065",
+    "plataforma": "GCA",
+    "startTime": "2026-09-17T14:14:39.489Z",
+    "endTime": "2026-09-17T14:23:13.489Z",
+    "sessionTimeSeconds": 514
+  },
+  {
+    "zona": "VSA01",
+    "region": "Sureste",
+    "usuario": "50061",
+    "plataforma": "GCA",
+    "startTime": "2026-09-17T22:13:56.050Z",
+    "endTime": "2026-09-17T22:26:14.050Z",
+    "sessionTimeSeconds": 738
+  },
+  {
+    "zona": "DGO01",
+    "region": "Norte",
+    "usuario": "50025",
+    "plataforma": "GCA",
+    "startTime": "2026-09-17T23:29:24.656Z",
+    "endTime": "2026-09-17T23:39:32.656Z",
+    "sessionTimeSeconds": 608
+  },
+  {
+    "zona": "GDL03",
+    "region": "Occidente",
+    "usuario": "50036",
+    "plataforma": "GCA",
+    "startTime": "2026-09-18T10:45:26.521Z",
+    "endTime": "2026-09-18T10:56:36.521Z",
+    "sessionTimeSeconds": 670
+  },
+  {
+    "zona": "TAM01",
+    "region": "Norte",
+    "usuario": "50017",
+    "plataforma": "HCM",
+    "startTime": "2026-09-18T16:27:07.042Z",
+    "endTime": "2026-09-18T16:30:45.042Z",
+    "sessionTimeSeconds": 218
+  },
+  {
+    "zona": "PCA01",
+    "region": "Centro",
+    "usuario": "50078",
+    "plataforma": "HCM",
+    "startTime": "2026-09-19T00:20:10.772Z",
+    "endTime": "2026-09-19T00:22:08.772Z",
+    "sessionTimeSeconds": 118
+  },
+  {
+    "zona": "PCM01",
+    "region": "Sureste",
+    "usuario": "50034",
+    "plataforma": "GCA",
+    "startTime": "2026-09-19T06:10:10.618Z",
+    "endTime": "2026-09-19T06:28:54.618Z",
+    "sessionTimeSeconds": 1124
+  },
+  {
+    "zona": "MTY03",
+    "region": "Norte",
+    "usuario": "50044",
+    "plataforma": "GCA",
+    "startTime": "2026-09-19T08:31:47.508Z",
+    "endTime": "2026-09-19T08:42:37.508Z",
+    "sessionTimeSeconds": 650
+  },
+  {
+    "zona": "AGU01",
+    "region": "Occidente",
+    "usuario": "50008",
+    "plataforma": "GCA",
+    "startTime": "2026-09-19T09:00:22.080Z",
+    "endTime": "2026-09-19T09:14:47.080Z",
+    "sessionTimeSeconds": 865
+  },
+  {
+    "zona": "ACA01",
+    "region": "Centro",
+    "usuario": "50003",
+    "plataforma": "HCM",
+    "startTime": "2026-09-19T18:17:58.171Z",
+    "endTime": "2026-09-19T18:35:34.171Z",
+    "sessionTimeSeconds": 1056
+  },
+  {
+    "zona": "MTY02",
+    "region": "Norte",
+    "usuario": "50081",
+    "plataforma": "GCA",
+    "startTime": "2026-09-19T19:58:37.376Z",
+    "endTime": "2026-09-19T20:10:33.376Z",
+    "sessionTimeSeconds": 716
+  },
+  {
+    "zona": "CEN01",
+    "region": "Noroeste",
+    "usuario": "50049",
+    "plataforma": "HCM",
+    "startTime": "2026-09-19T21:37:01.149Z",
+    "endTime": "2026-09-19T21:45:59.149Z",
+    "sessionTimeSeconds": 538
+  },
+  {
+    "zona": "CEN01",
+    "region": "Noroeste",
+    "usuario": "50019",
+    "plataforma": "GCA",
+    "startTime": "2026-09-19T21:50:02.214Z",
+    "endTime": "2026-09-19T22:08:15.214Z",
+    "sessionTimeSeconds": 1093
+  },
+  {
+    "zona": "QRO01",
+    "region": "Centro",
+    "usuario": "50034",
+    "plataforma": "HCM",
+    "startTime": "2026-09-20T15:13:56.040Z",
+    "endTime": "2026-09-20T15:19:47.040Z",
+    "sessionTimeSeconds": 351
+  },
+  {
+    "zona": "CVJ01",
+    "region": "Centro",
+    "usuario": "50021",
+    "plataforma": "HCM",
+    "startTime": "2026-09-20T16:29:34.230Z",
+    "endTime": "2026-09-20T16:40:04.230Z",
+    "sessionTimeSeconds": 630
+  },
+  {
+    "zona": "HMO01",
+    "region": "Noroeste",
+    "usuario": "50079",
+    "plataforma": "GCA",
+    "startTime": "2026-09-21T09:52:22.383Z",
+    "endTime": "2026-09-21T09:54:04.383Z",
+    "sessionTimeSeconds": 102
+  },
+  {
+    "zona": "MTY03",
+    "region": "Norte",
+    "usuario": "50032",
+    "plataforma": "GCA",
+    "startTime": "2026-09-21T13:38:48.051Z",
+    "endTime": "2026-09-21T13:50:45.051Z",
+    "sessionTimeSeconds": 717
+  },
+  {
+    "zona": "CJS01",
+    "region": "Norte",
+    "usuario": "50028",
+    "plataforma": "GCA",
+    "startTime": "2026-09-21T14:35:28.747Z",
+    "endTime": "2026-09-21T14:37:13.747Z",
+    "sessionTimeSeconds": 105
+  },
+  {
+    "zona": "TGZ01",
+    "region": "Sureste",
+    "usuario": "50023",
+    "plataforma": "HCM",
+    "startTime": "2026-09-22T11:43:00.469Z",
+    "endTime": "2026-09-22T11:45:39.469Z",
+    "sessionTimeSeconds": 159
+  },
+  {
+    "zona": "MEX04",
+    "region": "Centro",
+    "usuario": "50079",
+    "plataforma": "HCM",
+    "startTime": "2026-09-22T14:13:29.820Z",
+    "endTime": "2026-09-22T14:25:35.820Z",
+    "sessionTimeSeconds": 726
+  },
+  {
+    "zona": "REX01",
+    "region": "Norte",
+    "usuario": "50054",
+    "plataforma": "GCA",
+    "startTime": "2026-09-22T18:28:42.365Z",
+    "endTime": "2026-09-22T18:34:56.365Z",
+    "sessionTimeSeconds": 374
+  },
+  {
+    "zona": "TRC01",
+    "region": "Norte",
+    "usuario": "50078",
+    "plataforma": "GCA",
+    "startTime": "2026-09-22T22:30:12.505Z",
+    "endTime": "2026-09-22T22:47:31.505Z",
+    "sessionTimeSeconds": 1039
+  },
+  {
+    "zona": "MTY03",
+    "region": "Norte",
+    "usuario": "50046",
+    "plataforma": "HCM",
+    "startTime": "2026-09-23T18:51:30.455Z",
+    "endTime": "2026-09-23T19:02:58.455Z",
+    "sessionTimeSeconds": 688
+  },
+  {
+    "zona": "LAP01",
+    "region": "Noroeste",
+    "usuario": "50007",
+    "plataforma": "GCA",
+    "startTime": "2026-09-24T15:05:49.950Z",
+    "endTime": "2026-09-24T15:24:07.950Z",
+    "sessionTimeSeconds": 1098
+  },
+  {
+    "zona": "TRC01",
+    "region": "Norte",
+    "usuario": "50062",
+    "plataforma": "GCA",
+    "startTime": "2026-09-25T02:35:40.931Z",
+    "endTime": "2026-09-25T02:51:31.931Z",
+    "sessionTimeSeconds": 951
+  },
+  {
+    "zona": "CUU01",
+    "region": "Norte",
+    "usuario": "50024",
+    "plataforma": "HCM",
+    "startTime": "2026-09-25T03:16:55.422Z",
+    "endTime": "2026-09-25T03:34:33.422Z",
+    "sessionTimeSeconds": 1058
+  },
+  {
+    "zona": "CUU01",
+    "region": "Norte",
+    "usuario": "50057",
+    "plataforma": "HCM",
+    "startTime": "2026-09-25T16:38:09.161Z",
+    "endTime": "2026-09-25T16:42:50.161Z",
+    "sessionTimeSeconds": 281
+  },
+  {
+    "zona": "MEX02",
+    "region": "Centro",
+    "usuario": "50000",
+    "plataforma": "GCA",
+    "startTime": "2026-09-26T00:38:25.298Z",
+    "endTime": "2026-09-26T00:51:15.298Z",
+    "sessionTimeSeconds": 770
+  },
+  {
+    "zona": "CUU01",
+    "region": "Norte",
+    "usuario": "50018",
+    "plataforma": "GCA",
+    "startTime": "2026-09-26T03:40:24.146Z",
+    "endTime": "2026-09-26T03:48:01.146Z",
+    "sessionTimeSeconds": 457
+  },
+  {
+    "zona": "PCM01",
+    "region": "Sureste",
+    "usuario": "50034",
+    "plataforma": "GCA",
+    "startTime": "2026-09-26T03:44:29.661Z",
+    "endTime": "2026-09-26T03:53:24.661Z",
+    "sessionTimeSeconds": 535
+  },
+  {
+    "zona": "GDL03",
+    "region": "Occidente",
+    "usuario": "50011",
+    "plataforma": "HCM",
+    "startTime": "2026-09-26T12:19:50.274Z",
+    "endTime": "2026-09-26T12:29:18.274Z",
+    "sessionTimeSeconds": 568
+  },
+  {
+    "zona": "PCM01",
+    "region": "Sureste",
+    "usuario": "50000",
+    "plataforma": "HCM",
+    "startTime": "2026-09-26T21:22:20.082Z",
+    "endTime": "2026-09-26T21:31:55.082Z",
+    "sessionTimeSeconds": 575
+  },
+  {
+    "zona": "MEX14",
+    "region": "Centro",
+    "usuario": "50069",
+    "plataforma": "GCA",
+    "startTime": "2026-09-26T22:14:39.640Z",
+    "endTime": "2026-09-26T22:31:05.640Z",
+    "sessionTimeSeconds": 986
+  },
+  {
+    "zona": "OAX01",
+    "region": "Centro",
+    "usuario": "50039",
+    "plataforma": "HCM",
+    "startTime": "2026-09-27T11:21:50.096Z",
+    "endTime": "2026-09-27T11:27:25.096Z",
+    "sessionTimeSeconds": 335
+  },
+  {
+    "zona": "VSA01",
+    "region": "Sureste",
+    "usuario": "50039",
+    "plataforma": "GCA",
+    "startTime": "2026-09-27T17:24:18.266Z",
+    "endTime": "2026-09-27T17:33:40.266Z",
+    "sessionTimeSeconds": 562
+  },
+  {
+    "zona": "GDL01",
+    "region": "Occidente",
+    "usuario": "50034",
+    "plataforma": "HCM",
+    "startTime": "2026-09-27T21:09:30.163Z",
+    "endTime": "2026-09-27T21:14:42.163Z",
+    "sessionTimeSeconds": 312
+  },
+  {
+    "zona": "CEN01",
+    "region": "Noroeste",
+    "usuario": "50082",
+    "plataforma": "HCM",
+    "startTime": "2026-09-28T09:05:38.560Z",
+    "endTime": "2026-09-28T09:18:17.560Z",
+    "sessionTimeSeconds": 759
+  },
+  {
+    "zona": "CRB01",
+    "region": "Sureste",
+    "usuario": "50072",
+    "plataforma": "HCM",
+    "startTime": "2026-09-28T10:31:58.634Z",
+    "endTime": "2026-09-28T10:47:02.634Z",
+    "sessionTimeSeconds": 904
+  },
+  {
+    "zona": "JAL01",
+    "region": "Sureste",
+    "usuario": "50018",
+    "plataforma": "GCA",
+    "startTime": "2026-09-28T13:03:47.242Z",
+    "endTime": "2026-09-28T13:11:44.242Z",
+    "sessionTimeSeconds": 477
+  },
+  {
+    "zona": "MTY01",
+    "region": "Norte",
+    "usuario": "50021",
+    "plataforma": "GCA",
+    "startTime": "2026-09-28T14:02:13.429Z",
+    "endTime": "2026-09-28T14:12:38.429Z",
+    "sessionTimeSeconds": 625
+  },
+  {
+    "zona": "JAL01",
+    "region": "Sureste",
+    "usuario": "50048",
+    "plataforma": "HCM",
+    "startTime": "2026-09-28T16:43:32.731Z",
+    "endTime": "2026-09-28T16:53:48.731Z",
+    "sessionTimeSeconds": 616
+  },
+  {
+    "zona": "AGU01",
+    "region": "Occidente",
+    "usuario": "50067",
+    "plataforma": "GCA",
+    "startTime": "2026-09-29T00:06:53.866Z",
+    "endTime": "2026-09-29T00:20:52.866Z",
+    "sessionTimeSeconds": 839
+  },
+  {
+    "zona": "MEX03",
+    "region": "Centro",
+    "usuario": "50035",
+    "plataforma": "GCA",
+    "startTime": "2026-09-29T08:15:59.207Z",
+    "endTime": "2026-09-29T08:33:02.207Z",
+    "sessionTimeSeconds": 1023
+  },
+  {
+    "zona": "TRC01",
+    "region": "Norte",
+    "usuario": "50048",
+    "plataforma": "HCM",
+    "startTime": "2026-09-29T09:32:29.310Z",
+    "endTime": "2026-09-29T09:33:30.310Z",
+    "sessionTimeSeconds": 61
+  },
+  {
+    "zona": "JAL01",
+    "region": "Sureste",
+    "usuario": "50068",
+    "plataforma": "GCA",
+    "startTime": "2026-09-29T12:59:54.363Z",
+    "endTime": "2026-09-29T13:17:00.363Z",
+    "sessionTimeSeconds": 1026
+  },
+  {
+    "zona": "CRB01",
+    "region": "Sureste",
+    "usuario": "50041",
+    "plataforma": "HCM",
+    "startTime": "2026-10-01T01:32:17.737Z",
+    "endTime": "2026-10-01T01:44:35.737Z",
+    "sessionTimeSeconds": 738
+  },
+  {
+    "zona": "MEX02",
+    "region": "Centro",
+    "usuario": "50008",
+    "plataforma": "GCA",
+    "startTime": "2026-10-01T03:04:43.584Z",
+    "endTime": "2026-10-01T03:06:06.584Z",
+    "sessionTimeSeconds": 83
+  },
+  {
+    "zona": "MEX01",
+    "region": "Centro",
+    "usuario": "50028",
+    "plataforma": "HCM",
+    "startTime": "2026-10-01T04:20:06.947Z",
+    "endTime": "2026-10-01T04:37:51.947Z",
+    "sessionTimeSeconds": 1065
+  },
+  {
+    "zona": "VER01",
+    "region": "Sureste",
+    "usuario": "50064",
+    "plataforma": "HCM",
+    "startTime": "2026-10-01T11:19:31.350Z",
+    "endTime": "2026-10-01T11:24:54.350Z",
+    "sessionTimeSeconds": 323
+  },
+  {
+    "zona": "CVJ01",
+    "region": "Centro",
+    "usuario": "50033",
+    "plataforma": "HCM",
+    "startTime": "2026-10-01T17:21:56.793Z",
+    "endTime": "2026-10-01T17:40:56.793Z",
+    "sessionTimeSeconds": 1140
+  },
+  {
+    "zona": "MTY01",
+    "region": "Norte",
+    "usuario": "50067",
+    "plataforma": "GCA",
+    "startTime": "2026-10-01T21:32:35.036Z",
+    "endTime": "2026-10-01T21:36:51.036Z",
+    "sessionTimeSeconds": 256
+  },
+  {
+    "zona": "TLC01",
+    "region": "Centro",
+    "usuario": "50040",
+    "plataforma": "HCM",
+    "startTime": "2026-10-02T15:08:47.937Z",
+    "endTime": "2026-10-02T15:27:40.937Z",
+    "sessionTimeSeconds": 1133
+  },
+  {
+    "zona": "MEX14",
+    "region": "Centro",
+    "usuario": "50010",
+    "plataforma": "HCM",
+    "startTime": "2026-10-02T15:44:30.172Z",
+    "endTime": "2026-10-02T15:47:12.172Z",
+    "sessionTimeSeconds": 162
+  },
+  {
+    "zona": "MEX01",
+    "region": "Centro",
+    "usuario": "50018",
+    "plataforma": "GCA",
+    "startTime": "2026-10-02T16:52:47.059Z",
+    "endTime": "2026-10-02T16:57:21.059Z",
+    "sessionTimeSeconds": 274
+  },
+  {
+    "zona": "COA01",
+    "region": "Sureste",
+    "usuario": "50032",
+    "plataforma": "HCM",
+    "startTime": "2026-10-03T04:11:46.572Z",
+    "endTime": "2026-10-03T04:27:36.572Z",
+    "sessionTimeSeconds": 950
+  },
+  {
+    "zona": "MEX01",
+    "region": "Centro",
+    "usuario": "50022",
+    "plataforma": "HCM",
+    "startTime": "2026-10-03T05:54:03.833Z",
+    "endTime": "2026-10-03T06:02:31.833Z",
+    "sessionTimeSeconds": 508
+  },
+  {
+    "zona": "CEL01",
+    "region": "Occidente",
+    "usuario": "50033",
+    "plataforma": "HCM",
+    "startTime": "2026-10-03T20:35:52.754Z",
+    "endTime": "2026-10-03T20:42:07.754Z",
+    "sessionTimeSeconds": 375
+  },
+  {
+    "zona": "COA01",
+    "region": "Sureste",
+    "usuario": "50048",
+    "plataforma": "GCA",
+    "startTime": "2026-10-03T20:47:41.177Z",
+    "endTime": "2026-10-03T20:53:52.177Z",
+    "sessionTimeSeconds": 371
+  },
+  {
+    "zona": "MTY03",
+    "region": "Norte",
+    "usuario": "50047",
+    "plataforma": "GCA",
+    "startTime": "2026-10-04T03:14:37.565Z",
+    "endTime": "2026-10-04T03:29:46.565Z",
+    "sessionTimeSeconds": 909
+  },
+  {
+    "zona": "BJX01",
+    "region": "Occidente",
+    "usuario": "50054",
+    "plataforma": "GCA",
+    "startTime": "2026-10-04T08:27:55.686Z",
+    "endTime": "2026-10-04T08:40:52.686Z",
+    "sessionTimeSeconds": 777
+  },
+  {
+    "zona": "PVR01",
+    "region": "Occidente",
+    "usuario": "50010",
+    "plataforma": "GCA",
+    "startTime": "2026-10-04T10:44:27.278Z",
+    "endTime": "2026-10-04T11:01:39.278Z",
+    "sessionTimeSeconds": 1032
+  },
+  {
+    "zona": "VER01",
+    "region": "Sureste",
+    "usuario": "50040",
+    "plataforma": "HCM",
+    "startTime": "2026-10-04T15:54:55.076Z",
+    "endTime": "2026-10-04T15:57:55.076Z",
+    "sessionTimeSeconds": 180
+  },
+  {
+    "zona": "COA01",
+    "region": "Sureste",
+    "usuario": "50012",
+    "plataforma": "HCM",
+    "startTime": "2026-10-04T16:19:13.546Z",
+    "endTime": "2026-10-04T16:23:50.546Z",
+    "sessionTimeSeconds": 277
+  },
+  {
+    "zona": "MTY01",
+    "region": "Norte",
+    "usuario": "50026",
+    "plataforma": "HCM",
+    "startTime": "2026-10-05T05:36:43.658Z",
+    "endTime": "2026-10-05T05:50:55.658Z",
+    "sessionTimeSeconds": 852
+  },
+  {
+    "zona": "HMO01",
+    "region": "Noroeste",
+    "usuario": "50060",
+    "plataforma": "GCA",
+    "startTime": "2026-10-05T12:06:18.422Z",
+    "endTime": "2026-10-05T12:08:14.422Z",
+    "sessionTimeSeconds": 116
+  },
+  {
+    "zona": "CUN01",
+    "region": "Sureste",
+    "usuario": "50002",
+    "plataforma": "GCA",
+    "startTime": "2026-10-05T22:43:28.658Z",
+    "endTime": "2026-10-05T22:57:57.658Z",
+    "sessionTimeSeconds": 869
+  },
+  {
+    "zona": "TIJ01",
+    "region": "Noroeste",
+    "usuario": "50047",
+    "plataforma": "GCA",
+    "startTime": "2026-10-06T01:51:38.050Z",
+    "endTime": "2026-10-06T02:07:26.050Z",
+    "sessionTimeSeconds": 948
+  },
+  {
+    "zona": "NLD01",
+    "region": "Norte",
+    "usuario": "50049",
+    "plataforma": "GCA",
+    "startTime": "2026-10-06T03:16:36.374Z",
+    "endTime": "2026-10-06T03:33:40.374Z",
+    "sessionTimeSeconds": 1024
+  },
+  {
+    "zona": "SLP01",
+    "region": "Centro",
+    "usuario": "50034",
+    "plataforma": "HCM",
+    "startTime": "2026-10-06T15:41:06.121Z",
+    "endTime": "2026-10-06T15:45:59.121Z",
+    "sessionTimeSeconds": 293
+  },
+  {
+    "zona": "MEX01",
+    "region": "Centro",
+    "usuario": "50070",
+    "plataforma": "HCM",
+    "startTime": "2026-10-06T15:56:53.331Z",
+    "endTime": "2026-10-06T16:14:19.331Z",
+    "sessionTimeSeconds": 1046
+  },
+  {
+    "zona": "MTY01",
+    "region": "Norte",
+    "usuario": "50005",
+    "plataforma": "GCA",
+    "startTime": "2026-10-06T21:48:52.930Z",
+    "endTime": "2026-10-06T22:03:10.930Z",
+    "sessionTimeSeconds": 858
+  },
+  {
+    "zona": "TGZ01",
+    "region": "Sureste",
+    "usuario": "50077",
+    "plataforma": "GCA",
+    "startTime": "2026-10-07T02:08:32.925Z",
+    "endTime": "2026-10-07T02:25:52.925Z",
+    "sessionTimeSeconds": 1040
+  },
+  {
+    "zona": "MEX04",
+    "region": "Centro",
+    "usuario": "50048",
+    "plataforma": "GCA",
+    "startTime": "2026-10-07T03:19:23.499Z",
+    "endTime": "2026-10-07T03:23:22.499Z",
+    "sessionTimeSeconds": 239
+  },
+  {
+    "zona": "GDL01",
+    "region": "Occidente",
+    "usuario": "50034",
+    "plataforma": "GCA",
+    "startTime": "2026-10-07T06:33:19.808Z",
+    "endTime": "2026-10-07T06:48:09.808Z",
+    "sessionTimeSeconds": 890
+  },
+  {
+    "zona": "MTY01",
+    "region": "Norte",
+    "usuario": "50050",
+    "plataforma": "GCA",
+    "startTime": "2026-10-07T15:53:28.720Z",
+    "endTime": "2026-10-07T16:08:52.720Z",
+    "sessionTimeSeconds": 924
+  },
+  {
+    "zona": "GDL02",
+    "region": "Occidente",
+    "usuario": "50017",
+    "plataforma": "GCA",
+    "startTime": "2026-10-08T01:27:41.111Z",
+    "endTime": "2026-10-08T01:45:18.111Z",
+    "sessionTimeSeconds": 1057
+  },
+  {
+    "zona": "PCM01",
+    "region": "Sureste",
+    "usuario": "50070",
+    "plataforma": "HCM",
+    "startTime": "2026-10-08T03:46:00.357Z",
+    "endTime": "2026-10-08T03:49:49.357Z",
+    "sessionTimeSeconds": 229
+  },
+  {
+    "zona": "AGU01",
+    "region": "Occidente",
+    "usuario": "50037",
+    "plataforma": "HCM",
+    "startTime": "2026-10-09T00:17:20.676Z",
+    "endTime": "2026-10-09T00:18:21.676Z",
+    "sessionTimeSeconds": 61
+  },
+  {
+    "zona": "TAM01",
+    "region": "Norte",
+    "usuario": "50010",
+    "plataforma": "HCM",
+    "startTime": "2026-10-09T00:23:02.341Z",
+    "endTime": "2026-10-09T00:37:03.341Z",
+    "sessionTimeSeconds": 841
+  },
+  {
+    "zona": "TIJ01",
+    "region": "Noroeste",
+    "usuario": "50020",
+    "plataforma": "GCA",
+    "startTime": "2026-10-09T13:48:12.571Z",
+    "endTime": "2026-10-09T14:06:15.571Z",
+    "sessionTimeSeconds": 1083
+  },
+  {
+    "zona": "AGU01",
+    "region": "Occidente",
+    "usuario": "50036",
+    "plataforma": "GCA",
+    "startTime": "2026-10-09T16:05:21.249Z",
+    "endTime": "2026-10-09T16:18:39.249Z",
+    "sessionTimeSeconds": 798
+  },
+  {
+    "zona": "CVJ01",
+    "region": "Centro",
+    "usuario": "50078",
+    "plataforma": "GCA",
+    "startTime": "2026-10-10T00:40:17.392Z",
+    "endTime": "2026-10-10T00:43:23.392Z",
+    "sessionTimeSeconds": 186
+  },
+  {
+    "zona": "MEX01",
+    "region": "Centro",
+    "usuario": "50050",
+    "plataforma": "GCA",
+    "startTime": "2026-10-10T02:07:27.812Z",
+    "endTime": "2026-10-10T02:14:14.812Z",
+    "sessionTimeSeconds": 407
+  },
+  {
+    "zona": "CEN01",
+    "region": "Noroeste",
+    "usuario": "50008",
+    "plataforma": "GCA",
+    "startTime": "2026-10-11T09:51:32.751Z",
+    "endTime": "2026-10-11T09:56:29.751Z",
+    "sessionTimeSeconds": 297
+  },
+  {
+    "zona": "CUL01",
+    "region": "Noroeste",
+    "usuario": "50039",
+    "plataforma": "HCM",
+    "startTime": "2026-10-11T11:19:21.656Z",
+    "endTime": "2026-10-11T11:20:15.656Z",
+    "sessionTimeSeconds": 54
+  },
+  {
+    "zona": "MXL01",
+    "region": "Noroeste",
+    "usuario": "50025",
+    "plataforma": "GCA",
+    "startTime": "2026-10-11T14:28:32.719Z",
+    "endTime": "2026-10-11T14:47:02.719Z",
+    "sessionTimeSeconds": 1110
+  },
+  {
+    "zona": "SLW01",
+    "region": "Norte",
+    "usuario": "50076",
+    "plataforma": "HCM",
+    "startTime": "2026-10-11T14:28:33.590Z",
+    "endTime": "2026-10-11T14:32:49.590Z",
+    "sessionTimeSeconds": 256
+  },
+  {
+    "zona": "MZT01",
+    "region": "Noroeste",
+    "usuario": "50063",
+    "plataforma": "GCA",
+    "startTime": "2026-10-11T15:55:40.894Z",
+    "endTime": "2026-10-11T16:04:22.894Z",
+    "sessionTimeSeconds": 522
+  },
+  {
+    "zona": "BJX01",
+    "region": "Occidente",
+    "usuario": "50059",
+    "plataforma": "HCM",
+    "startTime": "2026-10-11T19:44:43.992Z",
+    "endTime": "2026-10-11T19:45:56.992Z",
+    "sessionTimeSeconds": 73
+  },
+  {
+    "zona": "TAM01",
+    "region": "Norte",
+    "usuario": "50006",
+    "plataforma": "HCM",
+    "startTime": "2026-10-12T03:22:33.438Z",
+    "endTime": "2026-10-12T03:40:20.438Z",
+    "sessionTimeSeconds": 1067
+  },
+  {
+    "zona": "MEX03",
+    "region": "Centro",
+    "usuario": "50072",
+    "plataforma": "HCM",
+    "startTime": "2026-10-12T04:12:51.950Z",
+    "endTime": "2026-10-12T04:18:54.950Z",
+    "sessionTimeSeconds": 363
+  },
+  {
+    "zona": "MEX01",
+    "region": "Centro",
+    "usuario": "50000",
+    "plataforma": "GCA",
+    "startTime": "2026-10-12T12:18:50.907Z",
+    "endTime": "2026-10-12T12:23:04.907Z",
+    "sessionTimeSeconds": 254
+  },
+  {
+    "zona": "CVJ01",
+    "region": "Centro",
+    "usuario": "50053",
+    "plataforma": "HCM",
+    "startTime": "2026-10-13T11:48:03.029Z",
+    "endTime": "2026-10-13T11:52:00.029Z",
+    "sessionTimeSeconds": 237
+  },
+  {
+    "zona": "COA01",
+    "region": "Sureste",
+    "usuario": "50043",
+    "plataforma": "GCA",
+    "startTime": "2026-10-14T12:26:31.560Z",
+    "endTime": "2026-10-14T12:37:31.560Z",
+    "sessionTimeSeconds": 660
+  },
+  {
+    "zona": "CUU01",
+    "region": "Norte",
+    "usuario": "50031",
+    "plataforma": "GCA",
+    "startTime": "2026-10-14T15:28:29.804Z",
+    "endTime": "2026-10-14T15:46:17.804Z",
+    "sessionTimeSeconds": 1068
+  },
+  {
+    "zona": "MTY03",
+    "region": "Norte",
+    "usuario": "50073",
+    "plataforma": "GCA",
+    "startTime": "2026-10-14T17:17:51.905Z",
+    "endTime": "2026-10-14T17:34:00.905Z",
+    "sessionTimeSeconds": 969
+  },
+  {
+    "zona": "TGZ01",
+    "region": "Sureste",
+    "usuario": "50028",
+    "plataforma": "HCM",
+    "startTime": "2026-10-15T00:55:09.457Z",
+    "endTime": "2026-10-15T00:59:30.457Z",
+    "sessionTimeSeconds": 261
+  },
+  {
+    "zona": "PBC01",
+    "region": "Centro",
+    "usuario": "50054",
+    "plataforma": "GCA",
+    "startTime": "2026-10-15T08:29:15.873Z",
+    "endTime": "2026-10-15T08:45:33.873Z",
+    "sessionTimeSeconds": 978
+  },
+  {
+    "zona": "CUU01",
+    "region": "Norte",
+    "usuario": "50066",
+    "plataforma": "GCA",
+    "startTime": "2026-10-15T08:47:38.245Z",
+    "endTime": "2026-10-15T08:53:23.245Z",
+    "sessionTimeSeconds": 345
+  },
+  {
+    "zona": "CVJ01",
+    "region": "Centro",
+    "usuario": "50053",
+    "plataforma": "HCM",
+    "startTime": "2026-10-15T19:54:52.314Z",
+    "endTime": "2026-10-15T20:04:46.314Z",
+    "sessionTimeSeconds": 594
+  },
+  {
+    "zona": "SLP01",
+    "region": "Centro",
+    "usuario": "50069",
+    "plataforma": "GCA",
+    "startTime": "2026-10-16T06:34:47.323Z",
+    "endTime": "2026-10-16T06:49:33.323Z",
+    "sessionTimeSeconds": 886
+  },
+  {
+    "zona": "GDL08",
+    "region": "Occidente",
+    "usuario": "50044",
+    "plataforma": "HCM",
+    "startTime": "2026-10-16T16:08:07.824Z",
+    "endTime": "2026-10-16T16:19:21.824Z",
+    "sessionTimeSeconds": 674
+  },
+  {
+    "zona": "CUL01",
+    "region": "Noroeste",
+    "usuario": "50002",
+    "plataforma": "GCA",
+    "startTime": "2026-10-16T19:35:45.710Z",
+    "endTime": "2026-10-16T19:40:34.710Z",
+    "sessionTimeSeconds": 289
+  },
+  {
+    "zona": "PVR01",
+    "region": "Occidente",
+    "usuario": "50059",
+    "plataforma": "HCM",
+    "startTime": "2026-10-17T02:34:40.648Z",
+    "endTime": "2026-10-17T02:39:07.648Z",
+    "sessionTimeSeconds": 267
+  },
+  {
+    "zona": "SLW01",
+    "region": "Norte",
+    "usuario": "50016",
+    "plataforma": "HCM",
+    "startTime": "2026-10-17T06:57:46.225Z",
+    "endTime": "2026-10-17T07:12:28.225Z",
+    "sessionTimeSeconds": 882
+  },
+  {
+    "zona": "CVJ01",
+    "region": "Centro",
+    "usuario": "50010",
+    "plataforma": "GCA",
+    "startTime": "2026-10-17T13:47:47.629Z",
+    "endTime": "2026-10-17T13:56:56.629Z",
+    "sessionTimeSeconds": 549
+  },
+  {
+    "zona": "QRO01",
+    "region": "Centro",
+    "usuario": "50043",
+    "plataforma": "GCA",
+    "startTime": "2026-10-17T20:59:55.370Z",
+    "endTime": "2026-10-17T21:15:40.370Z",
+    "sessionTimeSeconds": 945
+  },
+  {
+    "zona": "CEN01",
+    "region": "Noroeste",
+    "usuario": "50052",
+    "plataforma": "GCA",
+    "startTime": "2026-10-18T10:00:37.573Z",
+    "endTime": "2026-10-18T10:02:14.573Z",
+    "sessionTimeSeconds": 97
+  },
+  {
+    "zona": "OAX01",
+    "region": "Centro",
+    "usuario": "50073",
+    "plataforma": "HCM",
+    "startTime": "2026-10-18T12:24:56.899Z",
+    "endTime": "2026-10-18T12:29:53.899Z",
+    "sessionTimeSeconds": 297
+  },
+  {
+    "zona": "MEX14",
+    "region": "Centro",
+    "usuario": "50051",
+    "plataforma": "GCA",
+    "startTime": "2026-10-18T13:10:30.426Z",
+    "endTime": "2026-10-18T13:28:10.426Z",
+    "sessionTimeSeconds": 1060
+  },
+  {
+    "zona": "SLP01",
+    "region": "Centro",
+    "usuario": "50018",
+    "plataforma": "HCM",
+    "startTime": "2026-10-18T14:36:44.638Z",
+    "endTime": "2026-10-18T14:55:34.638Z",
+    "sessionTimeSeconds": 1130
+  },
+  {
+    "zona": "TLC01",
+    "region": "Centro",
+    "usuario": "50052",
+    "plataforma": "GCA",
+    "startTime": "2026-10-18T21:17:42.851Z",
+    "endTime": "2026-10-18T21:26:31.851Z",
+    "sessionTimeSeconds": 529
+  },
+  {
+    "zona": "CJS01",
+    "region": "Norte",
+    "usuario": "50081",
+    "plataforma": "GCA",
+    "startTime": "2026-10-19T00:35:38.099Z",
+    "endTime": "2026-10-19T00:51:11.099Z",
+    "sessionTimeSeconds": 933
+  },
+  {
+    "zona": "GDL02",
+    "region": "Occidente",
+    "usuario": "50000",
+    "plataforma": "GCA",
+    "startTime": "2026-10-19T03:47:12.321Z",
+    "endTime": "2026-10-19T04:01:45.321Z",
+    "sessionTimeSeconds": 873
+  },
+  {
+    "zona": "SLW01",
+    "region": "Norte",
+    "usuario": "50046",
+    "plataforma": "GCA",
+    "startTime": "2026-10-19T07:49:11.495Z",
+    "endTime": "2026-10-19T07:49:59.495Z",
+    "sessionTimeSeconds": 48
+  },
+  {
+    "zona": "DGO01",
+    "region": "Norte",
+    "usuario": "50023",
+    "plataforma": "GCA",
+    "startTime": "2026-10-19T13:19:50.946Z",
+    "endTime": "2026-10-19T13:26:29.946Z",
+    "sessionTimeSeconds": 399
+  },
+  {
+    "zona": "MTY02",
+    "region": "Norte",
+    "usuario": "50054",
+    "plataforma": "GCA",
+    "startTime": "2026-10-19T16:50:59.294Z",
+    "endTime": "2026-10-19T16:57:45.294Z",
+    "sessionTimeSeconds": 406
+  },
+  {
+    "zona": "MXL01",
+    "region": "Noroeste",
+    "usuario": "50062",
+    "plataforma": "GCA",
+    "startTime": "2026-10-19T21:18:47.881Z",
+    "endTime": "2026-10-19T21:30:42.881Z",
+    "sessionTimeSeconds": 715
+  },
+  {
+    "zona": "OAX01",
+    "region": "Centro",
+    "usuario": "50045",
+    "plataforma": "HCM",
+    "startTime": "2026-10-20T17:46:29.648Z",
+    "endTime": "2026-10-20T18:04:27.648Z",
+    "sessionTimeSeconds": 1078
+  },
+  {
+    "zona": "MZT01",
+    "region": "Noroeste",
+    "usuario": "50065",
+    "plataforma": "GCA",
+    "startTime": "2026-10-20T22:00:31.315Z",
+    "endTime": "2026-10-20T22:03:25.315Z",
+    "sessionTimeSeconds": 174
+  },
+  {
+    "zona": "MXL01",
+    "region": "Noroeste",
+    "usuario": "50015",
+    "plataforma": "HCM",
+    "startTime": "2026-10-22T03:43:02.736Z",
+    "endTime": "2026-10-22T03:45:29.736Z",
+    "sessionTimeSeconds": 147
+  },
+  {
+    "zona": "MZT01",
+    "region": "Noroeste",
+    "usuario": "50045",
+    "plataforma": "GCA",
+    "startTime": "2026-10-22T07:30:17.837Z",
+    "endTime": "2026-10-22T07:36:21.837Z",
+    "sessionTimeSeconds": 364
+  },
+  {
+    "zona": "CJS01",
+    "region": "Norte",
+    "usuario": "50078",
+    "plataforma": "HCM",
+    "startTime": "2026-10-22T16:19:53.098Z",
+    "endTime": "2026-10-22T16:24:55.098Z",
+    "sessionTimeSeconds": 302
+  },
+  {
+    "zona": "MEX03",
+    "region": "Centro",
+    "usuario": "50082",
+    "plataforma": "HCM",
+    "startTime": "2026-10-22T23:04:28.946Z",
+    "endTime": "2026-10-22T23:21:02.946Z",
+    "sessionTimeSeconds": 994
+  },
+  {
+    "zona": "MZT01",
+    "region": "Noroeste",
+    "usuario": "50013",
+    "plataforma": "HCM",
+    "startTime": "2026-10-23T12:21:14.703Z",
+    "endTime": "2026-10-23T12:38:43.703Z",
+    "sessionTimeSeconds": 1049
+  },
+  {
+    "zona": "ENS01",
+    "region": "Noroeste",
+    "usuario": "50037",
+    "plataforma": "HCM",
+    "startTime": "2026-10-23T20:13:39.477Z",
+    "endTime": "2026-10-23T20:20:35.477Z",
+    "sessionTimeSeconds": 416
+  },
+  {
+    "zona": "DGO01",
+    "region": "Norte",
+    "usuario": "50081",
+    "plataforma": "HCM",
+    "startTime": "2026-10-24T04:57:34.121Z",
+    "endTime": "2026-10-24T05:04:46.121Z",
+    "sessionTimeSeconds": 432
+  },
+  {
+    "zona": "MTY02",
+    "region": "Norte",
+    "usuario": "50003",
+    "plataforma": "HCM",
+    "startTime": "2026-10-24T08:20:26.665Z",
+    "endTime": "2026-10-24T08:25:15.665Z",
+    "sessionTimeSeconds": 289
+  },
+  {
+    "zona": "TRC01",
+    "region": "Norte",
+    "usuario": "50082",
+    "plataforma": "HCM",
+    "startTime": "2026-10-24T14:19:18.931Z",
+    "endTime": "2026-10-24T14:36:07.931Z",
+    "sessionTimeSeconds": 1009
+  },
+  {
+    "zona": "CRB01",
+    "region": "Sureste",
+    "usuario": "50016",
+    "plataforma": "GCA",
+    "startTime": "2026-10-24T15:10:16.290Z",
+    "endTime": "2026-10-24T15:26:25.290Z",
+    "sessionTimeSeconds": 969
+  },
+  {
+    "zona": "LAP01",
+    "region": "Noroeste",
+    "usuario": "50033",
+    "plataforma": "HCM",
+    "startTime": "2026-10-24T16:08:36.010Z",
+    "endTime": "2026-10-24T16:19:36.010Z",
+    "sessionTimeSeconds": 660
+  },
+  {
+    "zona": "JAL01",
+    "region": "Sureste",
+    "usuario": "50018",
+    "plataforma": "HCM",
+    "startTime": "2026-10-24T16:38:25.975Z",
+    "endTime": "2026-10-24T16:44:23.975Z",
+    "sessionTimeSeconds": 358
+  },
+  {
+    "zona": "MTY01",
+    "region": "Norte",
+    "usuario": "50036",
+    "plataforma": "GCA",
+    "startTime": "2026-10-24T23:27:46.401Z",
+    "endTime": "2026-10-24T23:36:32.401Z",
+    "sessionTimeSeconds": 526
+  },
+  {
+    "zona": "ENS01",
+    "region": "Noroeste",
+    "usuario": "50022",
+    "plataforma": "HCM",
+    "startTime": "2026-10-25T02:51:15.458Z",
+    "endTime": "2026-10-25T03:07:38.458Z",
+    "sessionTimeSeconds": 983
+  },
+  {
+    "zona": "TRC01",
+    "region": "Norte",
+    "usuario": "50024",
+    "plataforma": "HCM",
+    "startTime": "2026-10-25T09:00:07.073Z",
+    "endTime": "2026-10-25T09:16:38.073Z",
+    "sessionTimeSeconds": 991
+  },
+  {
+    "zona": "ACA01",
+    "region": "Centro",
+    "usuario": "50046",
+    "plataforma": "GCA",
+    "startTime": "2026-10-26T04:57:33.920Z",
+    "endTime": "2026-10-26T05:02:40.920Z",
+    "sessionTimeSeconds": 307
+  },
+  {
+    "zona": "HMO01",
+    "region": "Noroeste",
+    "usuario": "50026",
+    "plataforma": "HCM",
+    "startTime": "2026-10-26T05:15:39.866Z",
+    "endTime": "2026-10-26T05:18:32.866Z",
+    "sessionTimeSeconds": 173
+  },
+  {
+    "zona": "MLM01",
+    "region": "Occidente",
+    "usuario": "50024",
+    "plataforma": "HCM",
+    "startTime": "2026-10-26T10:57:26.767Z",
+    "endTime": "2026-10-26T11:12:47.767Z",
+    "sessionTimeSeconds": 921
+  },
+  {
+    "zona": "PCM01",
+    "region": "Sureste",
+    "usuario": "50004",
+    "plataforma": "HCM",
+    "startTime": "2026-10-26T16:20:46.024Z",
+    "endTime": "2026-10-26T16:32:25.024Z",
+    "sessionTimeSeconds": 699
+  },
+  {
+    "zona": "DGO01",
+    "region": "Norte",
+    "usuario": "50023",
+    "plataforma": "GCA",
+    "startTime": "2026-10-26T18:09:18.274Z",
+    "endTime": "2026-10-26T18:26:35.274Z",
+    "sessionTimeSeconds": 1037
+  },
+  {
+    "zona": "PVR01",
+    "region": "Occidente",
+    "usuario": "50054",
+    "plataforma": "HCM",
+    "startTime": "2026-10-26T21:05:52.462Z",
+    "endTime": "2026-10-26T21:12:41.462Z",
+    "sessionTimeSeconds": 409
+  },
+  {
+    "zona": "CUU01",
+    "region": "Norte",
+    "usuario": "50051",
+    "plataforma": "HCM",
+    "startTime": "2026-10-27T08:49:21.902Z",
+    "endTime": "2026-10-27T08:55:28.902Z",
+    "sessionTimeSeconds": 367
+  },
+  {
+    "zona": "ENS01",
+    "region": "Noroeste",
+    "usuario": "50007",
+    "plataforma": "GCA",
+    "startTime": "2026-10-27T09:01:38.062Z",
+    "endTime": "2026-10-27T09:19:17.062Z",
+    "sessionTimeSeconds": 1059
+  },
+  {
+    "zona": "NLD01",
+    "region": "Norte",
+    "usuario": "50072",
+    "plataforma": "HCM",
+    "startTime": "2026-10-27T11:29:28.483Z",
+    "endTime": "2026-10-27T11:35:19.483Z",
+    "sessionTimeSeconds": 351
+  },
+  {
+    "zona": "REX01",
+    "region": "Norte",
+    "usuario": "50045",
+    "plataforma": "HCM",
+    "startTime": "2026-10-27T16:28:12.913Z",
+    "endTime": "2026-10-27T16:31:05.913Z",
+    "sessionTimeSeconds": 173
+  },
+  {
+    "zona": "ENS01",
+    "region": "Noroeste",
+    "usuario": "50051",
+    "plataforma": "HCM",
+    "startTime": "2026-10-27T20:33:13.639Z",
+    "endTime": "2026-10-27T20:46:44.639Z",
+    "sessionTimeSeconds": 811
+  },
+  {
+    "zona": "MEX01",
+    "region": "Centro",
+    "usuario": "50043",
+    "plataforma": "HCM",
+    "startTime": "2026-10-27T22:23:58.265Z",
+    "endTime": "2026-10-27T22:38:26.265Z",
+    "sessionTimeSeconds": 868
+  },
+  {
+    "zona": "CUL01",
+    "region": "Noroeste",
+    "usuario": "50072",
+    "plataforma": "HCM",
+    "startTime": "2026-10-28T05:04:39.131Z",
+    "endTime": "2026-10-28T05:12:45.131Z",
+    "sessionTimeSeconds": 486
+  },
+  {
+    "zona": "MEX14",
+    "region": "Centro",
+    "usuario": "50074",
+    "plataforma": "HCM",
+    "startTime": "2026-10-28T06:06:34.108Z",
+    "endTime": "2026-10-28T06:09:33.108Z",
+    "sessionTimeSeconds": 179
+  },
+  {
+    "zona": "TRC01",
+    "region": "Norte",
+    "usuario": "50006",
+    "plataforma": "GCA",
+    "startTime": "2026-10-28T06:42:11.151Z",
+    "endTime": "2026-10-28T06:48:02.151Z",
+    "sessionTimeSeconds": 351
+  },
+  {
+    "zona": "CVJ01",
+    "region": "Centro",
+    "usuario": "50025",
+    "plataforma": "HCM",
+    "startTime": "2026-10-28T15:49:14.065Z",
+    "endTime": "2026-10-28T16:04:52.065Z",
+    "sessionTimeSeconds": 938
+  },
+  {
+    "zona": "LAP01",
+    "region": "Noroeste",
+    "usuario": "50056",
+    "plataforma": "HCM",
+    "startTime": "2026-10-28T16:01:40.556Z",
+    "endTime": "2026-10-28T16:10:08.556Z",
+    "sessionTimeSeconds": 508
+  },
+  {
+    "zona": "MTY02",
+    "region": "Norte",
+    "usuario": "50070",
+    "plataforma": "HCM",
+    "startTime": "2026-10-29T07:31:13.463Z",
+    "endTime": "2026-10-29T07:43:52.463Z",
+    "sessionTimeSeconds": 759
+  },
+  {
+    "zona": "MID01",
+    "region": "Sureste",
+    "usuario": "50072",
+    "plataforma": "GCA",
+    "startTime": "2026-10-29T20:59:11.761Z",
+    "endTime": "2026-10-29T21:17:39.761Z",
+    "sessionTimeSeconds": 1108
+  },
+  {
+    "zona": "PBC01",
+    "region": "Centro",
+    "usuario": "50023",
+    "plataforma": "GCA",
+    "startTime": "2026-10-29T22:11:54.099Z",
+    "endTime": "2026-10-29T22:13:35.099Z",
+    "sessionTimeSeconds": 101
+  },
+  {
+    "zona": "GDL01",
+    "region": "Occidente",
+    "usuario": "50074",
+    "plataforma": "GCA",
+    "startTime": "2026-10-29T23:56:53.944Z",
+    "endTime": "2026-10-30T00:05:37.944Z",
+    "sessionTimeSeconds": 524
+  },
+  {
+    "zona": "CRB01",
+    "region": "Sureste",
+    "usuario": "50045",
+    "plataforma": "HCM",
+    "startTime": "2026-10-30T12:47:19.758Z",
+    "endTime": "2026-10-30T12:59:00.758Z",
+    "sessionTimeSeconds": 701
+  },
+  {
+    "zona": "SLP01",
+    "region": "Centro",
+    "usuario": "50033",
+    "plataforma": "GCA",
+    "startTime": "2026-10-30T17:57:42.680Z",
+    "endTime": "2026-10-30T18:12:31.680Z",
+    "sessionTimeSeconds": 889
+  },
+  {
+    "zona": "MTY02",
+    "region": "Norte",
+    "usuario": "50063",
+    "plataforma": "GCA",
+    "startTime": "2026-10-31T08:51:05.082Z",
+    "endTime": "2026-10-31T09:00:47.082Z",
+    "sessionTimeSeconds": 582
+  },
+  {
+    "zona": "MLM01",
+    "region": "Occidente",
+    "usuario": "50032",
+    "plataforma": "HCM",
+    "startTime": "2026-10-31T12:31:49.080Z",
+    "endTime": "2026-10-31T12:40:25.080Z",
+    "sessionTimeSeconds": 516
+  },
+  {
+    "zona": "MZT01",
+    "region": "Noroeste",
+    "usuario": "50012",
+    "plataforma": "GCA",
+    "startTime": "2026-10-31T15:54:48.310Z",
+    "endTime": "2026-10-31T16:04:14.310Z",
+    "sessionTimeSeconds": 566
+  },
+  {
+    "zona": "CUL01",
+    "region": "Noroeste",
+    "usuario": "50068",
+    "plataforma": "HCM",
+    "startTime": "2026-11-01T04:02:42.486Z",
+    "endTime": "2026-11-01T04:18:34.486Z",
+    "sessionTimeSeconds": 952
+  },
+  {
+    "zona": "OAX01",
+    "region": "Centro",
+    "usuario": "50027",
+    "plataforma": "HCM",
+    "startTime": "2026-11-01T04:36:20.664Z",
+    "endTime": "2026-11-01T04:54:16.664Z",
+    "sessionTimeSeconds": 1076
+  },
+  {
+    "zona": "DGO01",
+    "region": "Norte",
+    "usuario": "50075",
+    "plataforma": "HCM",
+    "startTime": "2026-11-01T08:06:30.454Z",
+    "endTime": "2026-11-01T08:09:08.454Z",
+    "sessionTimeSeconds": 158
+  },
+  {
+    "zona": "MID03",
+    "region": "Sureste",
+    "usuario": "50069",
+    "plataforma": "HCM",
+    "startTime": "2026-11-01T19:02:22.632Z",
+    "endTime": "2026-11-01T19:06:34.632Z",
+    "sessionTimeSeconds": 252
+  },
+  {
+    "zona": "JAL01",
+    "region": "Sureste",
+    "usuario": "50057",
+    "plataforma": "GCA",
+    "startTime": "2026-11-02T23:09:38.318Z",
+    "endTime": "2026-11-02T23:23:29.318Z",
+    "sessionTimeSeconds": 831
+  },
+  {
+    "zona": "CEN01",
+    "region": "Noroeste",
+    "usuario": "50047",
+    "plataforma": "HCM",
+    "startTime": "2026-11-03T14:19:21.589Z",
+    "endTime": "2026-11-03T14:32:28.589Z",
+    "sessionTimeSeconds": 787
+  },
+  {
+    "zona": "SLP01",
+    "region": "Centro",
+    "usuario": "50010",
+    "plataforma": "GCA",
+    "startTime": "2026-11-03T18:36:21.838Z",
+    "endTime": "2026-11-03T18:44:24.838Z",
+    "sessionTimeSeconds": 483
+  },
+  {
+    "zona": "TGZ01",
+    "region": "Sureste",
+    "usuario": "50062",
+    "plataforma": "HCM",
+    "startTime": "2026-11-03T19:44:14.283Z",
+    "endTime": "2026-11-03T19:52:00.283Z",
+    "sessionTimeSeconds": 466
+  },
+  {
+    "zona": "JAL01",
+    "region": "Sureste",
+    "usuario": "50022",
+    "plataforma": "GCA",
+    "startTime": "2026-11-03T21:32:16.867Z",
+    "endTime": "2026-11-03T21:37:12.867Z",
+    "sessionTimeSeconds": 296
+  },
+  {
+    "zona": "HMO01",
+    "region": "Noroeste",
+    "usuario": "50047",
+    "plataforma": "HCM",
+    "startTime": "2026-11-03T22:56:21.903Z",
+    "endTime": "2026-11-03T23:13:52.903Z",
+    "sessionTimeSeconds": 1051
+  },
+  {
+    "zona": "COA01",
+    "region": "Sureste",
+    "usuario": "50070",
+    "plataforma": "HCM",
+    "startTime": "2026-11-03T23:47:39.950Z",
+    "endTime": "2026-11-03T23:54:05.950Z",
+    "sessionTimeSeconds": 386
+  },
+  {
+    "zona": "GDL03",
+    "region": "Occidente",
+    "usuario": "50055",
+    "plataforma": "HCM",
+    "startTime": "2026-11-04T19:53:48.108Z",
+    "endTime": "2026-11-04T20:02:57.108Z",
+    "sessionTimeSeconds": 549
+  },
+  {
+    "zona": "GDL02",
+    "region": "Occidente",
+    "usuario": "50011",
+    "plataforma": "HCM",
+    "startTime": "2026-11-04T20:27:38.601Z",
+    "endTime": "2026-11-04T20:34:14.601Z",
+    "sessionTimeSeconds": 396
+  },
+  {
+    "zona": "MTY03",
+    "region": "Norte",
+    "usuario": "50080",
+    "plataforma": "HCM",
+    "startTime": "2026-11-04T21:00:16.282Z",
+    "endTime": "2026-11-04T21:18:15.282Z",
+    "sessionTimeSeconds": 1079
+  },
+  {
+    "zona": "CEL01",
+    "region": "Occidente",
+    "usuario": "50065",
+    "plataforma": "HCM",
+    "startTime": "2026-11-05T02:25:34.014Z",
+    "endTime": "2026-11-05T02:31:34.014Z",
+    "sessionTimeSeconds": 360
+  },
+  {
+    "zona": "IRA02",
+    "region": "Occidente",
+    "usuario": "50049",
+    "plataforma": "GCA",
+    "startTime": "2026-11-05T05:08:12.953Z",
+    "endTime": "2026-11-05T05:09:48.953Z",
+    "sessionTimeSeconds": 96
+  },
+  {
+    "zona": "TAM01",
+    "region": "Norte",
+    "usuario": "50068",
+    "plataforma": "GCA",
+    "startTime": "2026-11-05T06:36:19.943Z",
+    "endTime": "2026-11-05T06:44:35.943Z",
+    "sessionTimeSeconds": 496
+  },
+  {
+    "zona": "TRC01",
+    "region": "Norte",
+    "usuario": "50025",
+    "plataforma": "GCA",
+    "startTime": "2026-11-05T13:47:43.604Z",
+    "endTime": "2026-11-05T13:48:28.604Z",
+    "sessionTimeSeconds": 45
+  },
+  {
+    "zona": "NLD01",
+    "region": "Norte",
+    "usuario": "50062",
+    "plataforma": "GCA",
+    "startTime": "2026-11-05T17:44:32.768Z",
+    "endTime": "2026-11-05T17:57:45.768Z",
+    "sessionTimeSeconds": 793
+  }
+]

@@ -1,40 +1,8 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primer Hola Mundo</title>
-    <style>
-        body {
-            font-family: system-ui, -apple-system, sans-serif;
-            background-color: #0f172a;
-            color: #f8fafc;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .card {
-            background-color: #1e293b;
-            padding: 2rem 3rem;
-            border-radius: 12px;
-            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
-            text-align: center;
-        }
-        h1 {
-            color: #38bdf8;
-            margin-bottom: 0.5rem;
-        }
-        p {
-            color: #94a3b8;
-        }
-    </style>
-</head>
-<body>
-    <div class="card">
-        <h1>¡Hola Mundo! 🚀</h1>
-        <p>Mi primera página web desplegada en Vercel.</p>
-    </div>
-</body>
-</html>
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kiosko | POC</title><link rel="stylesheet" href="styles.css"></head>
+<body><div class="shell"><header class="top"><div class="brand"><span class="brand-mark">P</span><span>PAQUETEXPRESS <small>· POC de uso</small></span></div><span class="zone-pill">Zona <b id="zoneLabel">MXL01</b></span></header>
+<main><section id="home" class="view active"><div class="intro"><p class="eyebrow">PLATAFORMA DE AUTOSERVICIO</p><h1>Todo al alcance<br>de tu mano.</h1><p>Elige una opción para comenzar.</p></div><div class="choice-grid"><button class="choice hcm" data-platform="HCM"><span class="choice-icon">H</span><span class="choice-copy"><small>EXPERIENCIA 01</small><strong>Menú Kiosko</strong><span>Juega Snake para iniciar tu recorrido.</span></span><span class="arrow">↗</span></button><button class="choice gca" data-platform="GCA"><span class="choice-icon">G</span><span class="choice-copy"><small>EXPERIENCIA 02</small><strong>Conecta 4</strong><span>Completa una partida para registrar tu sesión.</span></span><span class="arrow">↗</span></button></div><a class="dashboard-link" href="dashboard.html">Abrir dashboard <span>→</span></a></section>
+<section id="gameView" class="view"><button id="backHome" class="back">← Volver al menú</button><div class="game-heading"><div><p class="eyebrow" id="gameEyebrow">HCM</p><h2 id="gameTitle">Snake</h2></div><div class="session-chip">Sesión <b id="elapsed">00:00</b></div></div><div class="game-layout"><div class="board-wrap"><canvas id="gameCanvas" width="480" height="360" aria-label="Área del juego"></canvas><div class="mobile-controls"><button data-dir="up">↑</button><div><button data-dir="left">←</button><button data-dir="down">↓</button><button data-dir="right">→</button></div></div></div><aside class="game-side"><h3 id="sideTitle">Snake</h3><p id="gameHelp">Usa las flechas o WASD. Come los puntos y evita chocar. La sesión termina cuando pierdes.</p><div class="score-box"><span>PUNTOS</span><b id="score">0</b></div><button id="restart" class="secondary-btn">Reiniciar partida</button><p class="privacy-note">Tu ID solo sirve para identificar el registro de la sesión.</p></aside></div></section>
+<section id="resultView" class="view"><div class="result-card"><div class="result-check">✓</div><p class="eyebrow">SESIÓN COMPLETADA</p><h2>¡Gracias por jugar!</h2><p>Tu sesión duró <strong id="finalDuration">—</strong>.</p><p class="capture-note">Esto no lo ve el usuario, solo se captura.</p><pre id="jsonResult"></pre><button id="toHome" class="primary-btn">Volver al menú</button></div></section></main>
+</div><dialog id="idDialog"><form method="dialog" id="idForm"><button class="dialog-close" value="cancel" aria-label="Cerrar">×</button><p class="eyebrow" id="dialogPlatform">INICIAR</p><h2>Ingresa tu ID</h2><p>Solo lo usaremos para identificar esta sesión.</p><label for="userId">ID de usuario</label><input id="userId" name="userId" autocomplete="off" required maxlength="40" placeholder="Ej. 57649"><button class="primary-btn" value="start">Empezar a jugar</button></form></dialog>
+<script src="app.js"></script></body></html>
