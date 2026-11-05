@@ -11,14 +11,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const status = document.getElementById('game-status');
   const result = document.getElementById('session-result');
   const resultTitle = document.getElementById('result-title');
+  const jsonOutput = document.getElementById('session-json');
   const boardElement = document.getElementById('tic-tac-toe-board');
   const winLines = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];
   let board = Array(9).fill('');
-  let startedAt = 0;
+  let startedAt = null;
   let timerInterval = null;
-  let computerTimeout = null;
-  let active = false;
+  let activeMark = 'X';
   let ended = false;
+  let selectedPlatform = 'HCM';
+  let userId = '';
 
   const formatTime = (totalSeconds) => {
     const minutes = Math.floor(totalSeconds / 60);
@@ -26,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
   };
 
-  const elapsedSeconds = () => Math.floor((Date.now() - startedAt) / 1000);
+  const elapsedSeconds = () => Math.max(0, Math.floor((Date.now() - startedAt.getTime()) / 1000));
 
   const updateTimer = () => {
     const value = formatTime(elapsedSeconds());
@@ -36,83 +38,50 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const getWinner = (mark) => winLines.some((line) => line.every((index) => board[index] === mark));
 
-  const markCell = (index, mark) => {
-    board[index] = mark;
-    cells[index].textContent = mark;
-    cells[index].disabled = true;
-    cells[index].classList.toggle('computer-mark', mark === 'O');
-    cells[index].setAttribute('aria-label', `Casilla ${index + 1}: ${mark}`);
-  };
-
   const finishSession = (message) => {
     if (ended) return;
     ended = true;
-    active = false;
     clearInterval(timerInterval);
-    clearTimeout(computerTimeout);
-    updateTimer();
+    const endTime = new Date();
+    const durationSeconds = Math.max(0, Math.floor((endTime.getTime() - startedAt.getTime()) / 1000));
+    const finalTime = formatTime(durationSeconds);
+    timerDisplay.textContent = finalTime;
+    finalTimer.textContent = finalTime;
+    const record = {
+      zona: window.KIOSK_ZONE || 'MXL01',
+      usuario: userId,
+      plataforma: selectedPlatform,
+      startTime: startedAt.toISOString(),
+      endTime: endTime.toISOString(),
+      sessionTimeSeconds: durationSeconds
+    };
+
     sessionState.textContent = 'SESIÓN FINALIZADA';
     timerPill.classList.add('finished');
     status.textContent = message;
     resultTitle.textContent = message;
-    finalTimer.textContent = timerDisplay.textContent;
+    jsonOutput.textContent = JSON.stringify(record, null, 2);
     result.hidden = false;
     cells.forEach((cell) => { cell.disabled = true; });
   };
 
-  const chooseComputerMove = () => {
-    const available = board.map((value, index) => value ? -1 : index).filter((index) => index >= 0);
-    const findFinishingMove = (mark) => {
-      for (const index of available) {
-        board[index] = mark;
-        const wins = getWinner(mark);
-        board[index] = '';
-        if (wins) return index;
-      }
-      return null;
-    };
-
-    const win = findFinishingMove('O');
-    if (win !== null) return win;
-    const block = findFinishingMove('X');
-    if (block !== null) return block;
-    if (board[4] === '') return 4;
-    const corners = [0, 2, 6, 8].filter((index) => board[index] === '');
-    if (corners.length) return corners[Math.floor(Math.random() * corners.length)];
-    return available[Math.floor(Math.random() * available.length)];
-  };
-
-  const computerTurn = () => {
-    if (!active || ended) return;
-    const move = chooseComputerMove();
-    if (move === undefined) {
-      finishSession('Empate');
-      return;
-    }
-    markCell(move, 'O');
-    if (getWinner('O')) {
-      finishSession('Ganó la computadora');
-    } else if (board.every(Boolean)) {
-      finishSession('Empate');
-    } else {
-      status.textContent = 'Tu turno';
-      active = true;
-    }
-  };
-
   cells.forEach((cell) => {
     cell.addEventListener('click', () => {
-      if (!active || ended || cell.disabled) return;
+      if (ended || cell.disabled) return;
       const index = Number(cell.dataset.cell);
-      markCell(index, 'X');
-      if (getWinner('X')) {
-        finishSession('¡Ganaste!');
+      board[index] = activeMark;
+      cell.textContent = activeMark;
+      cell.disabled = true;
+      cell.classList.toggle('computer-mark', activeMark === 'O');
+      cell.setAttribute('aria-label', `Casilla ${index + 1}: ${activeMark}`);
+
+      if (getWinner(activeMark)) {
+        finishSession(`¡Ganó ${activeMark}!`);
       } else if (board.every(Boolean)) {
         finishSession('Empate');
       } else {
-        active = false;
-        status.textContent = 'Turno de la computadora…';
-        computerTimeout = setTimeout(computerTurn, 420);
+        activeMark = activeMark === 'X' ? 'O' : 'X';
+        status.textContent = `Turno de ${activeMark}`;
       }
     });
   });
@@ -125,13 +94,14 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   window.KioskGame = {
-    start(platform, userId) {
+    start(platform, id) {
       clearInterval(timerInterval);
-      clearTimeout(computerTimeout);
       board = Array(9).fill('');
-      startedAt = Date.now();
-      active = true;
+      startedAt = new Date();
+      activeMark = 'X';
       ended = false;
+      selectedPlatform = platform;
+      userId = id;
       cells.forEach((cell) => {
         cell.textContent = '';
         cell.disabled = false;
@@ -139,14 +109,15 @@ document.addEventListener('DOMContentLoaded', () => {
         cell.setAttribute('aria-label', `Casilla ${Number(cell.dataset.cell) + 1}`);
       });
       result.hidden = true;
-      status.textContent = 'Tu turno';
+      jsonOutput.textContent = '';
+      status.textContent = 'Turno de X';
       document.getElementById('game-platform').textContent = platform;
-      document.getElementById('game-title').textContent = 'Tic Tac Toe';
+      document.getElementById('game-context').textContent = `Supongamos que estamos dentro de ${platform}`;
       timerDisplay.textContent = '00:00';
       finalTimer.textContent = '00:00';
       sessionState.textContent = 'SESIÓN EN CURSO';
       timerPill.classList.remove('finished');
-      sessionStorage.setItem('kiosko-user-id', userId);
+      sessionStorage.setItem('kiosko-user-id', id);
       menu.hidden = true;
       version.hidden = true;
       gameScreen.hidden = false;

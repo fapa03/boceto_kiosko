@@ -473,10 +473,10 @@
       <span class="game-brand">PAQUETEXPRESS · <span id="game-platform">HCM</span></span>
       <div class="timer-pill"><span class="timer-dot"></span><span id="session-state">SESIÓN EN CURSO</span><strong id="session-timer">00:00</strong></div>
     </div>
-    <p class="game-eyebrow">RETO RÁPIDO</p>
+    <p id="game-context" class="game-eyebrow">Supongamos que estamos dentro de HCM</p>
     <h1 id="game-title">Tic Tac Toe</h1>
-    <p class="game-subtitle">Tú eres <b>X</b>. Haz tres en línea antes de la computadora.</p>
-    <p id="game-status" class="game-status" aria-live="polite">Tu turno</p>
+    <p class="game-subtitle">Jueguen por turnos en el mismo dispositivo: X y O.</p>
+    <p id="game-status" class="game-status" aria-live="polite">Turno de X</p>
     <div id="tic-tac-toe-board" class="tic-tac-toe-board" role="grid" aria-label="Tablero de Tic Tac Toe" tabindex="-1">
       <button class="game-cell" data-cell="0" aria-label="Casilla 1" role="gridcell"></button>
       <button class="game-cell" data-cell="1" aria-label="Casilla 2" role="gridcell"></button>
@@ -495,6 +495,8 @@
       <h2 id="result-title">Buen juego</h2>
       <p>Tiempo de sesión</p>
       <strong id="final-session-timer" class="final-session-timer">00:00</strong>
+      <p class="capture-note">Esto no lo ve el usuario, solo se captura.</p>
+      <pre id="session-json" class="session-json"></pre>
       <button id="return-to-menu" class="return-menu-button" type="button">Volver al menú</button>
     </div>
   </div>
@@ -537,6 +539,9 @@
   .session-result .game-eyebrow { margin-top: 22px; }
   .session-result h2 { margin: 0 0 8px; color: #18213b; font-size: 30px; }
   .session-result p:not(.game-eyebrow) { margin: 8px 0; color: #697184; font-size: 13px; }
+  .session-result .capture-note { margin: 5px 0 3px; color: #697184; font-size: 10px; }
+  .session-json { width: min(100%, 340px); max-height: 125px; overflow: auto; margin: 0 0 12px; padding: 10px 12px; border-radius: 9px; background: #111a2d; color: #dbe5ff; text-align: left; white-space: pre-wrap; overflow-wrap: anywhere; font: 10px/1.45 Consolas, monospace; }
+  .session-result .return-menu-button { flex: 0 0 auto; }
   .final-session-timer { display: block; margin: 0 0 20px; color: #173fc2; font-size: 38px; font-variant-numeric: tabular-nums; letter-spacing: .04em; }
   .return-menu-button { border: 0; border-radius: 9px; padding: 13px 18px; background: #173fc2; color: #fff; font-weight: 700; cursor: pointer; }
   @media (max-width: 480px) { #game-screen { padding: 12px; } .game-card { min-height: 590px; padding: 18px 16px 22px; } .timer-pill { gap: 5px; padding: 8px; font-size: 8px; } .game-cell { border-radius: 11px; font-size: 45px; } .session-result { inset: 80px 8px 12px; } }
