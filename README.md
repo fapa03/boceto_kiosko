@@ -1,21 +1,7 @@
 # Boceto Kiosko · POC de métricas
 
-Sitio estático para demo de sesiones HCM y GCA.
+La ruta raíz (`/`) abre directamente el menú kiosko original. Al elegir HCM, GCA o una opción dentro de sus tarjetas, se solicita el ID antes de continuar a la URL original. El ID se guarda solo en la sesión del navegador; no se usa autenticación.
 
-## Publicación
+El dashboard está en `/dashboard/` y carga el archivo raíz `log.json`. La POC usa archivos estáticos y Vercel los publica desde la raíz del repositorio. Cada push a `main` despliega cambios si la integración Git de Vercel está habilitada.
 
-Los archivos están en la raíz para el despliegue estático de Vercel. Cada push a `main` en el repositorio conectado activa un nuevo despliegue de producción. El dashboard carga `log.json` desde la misma raíz.
-
-## Archivos
-
-- `index.html`: menú de juegos y captura de ID.
-- `app.js` / `styles.css`: juegos HCM (Snake) y GCA (Conecta 4), temporizador de sesión y JSON mostrado al cierre.
-- `dashboard.html` / `dashboard.js`: resumen mensual por zona, usuarios, sesiones, duración y registros recientes.
-- `log.json`: 360 registros sintéticos distribuidos entre agosto y noviembre de 2026.
-- `zonaVslocation.json`: catálogo de zonas y regiones recibido para la POC.
-
-## Registro de sesiones
-
-El formato de cada registro usa timestamps ISO 8601 UTC y `sessionTimeSeconds` (entero en segundos). `log.json` es una semilla de demostración. Por ser un sitio estático, el navegador no puede escribir las nuevas sesiones al archivo publicado; estas se muestran como JSON al finalizar el juego. Para conservar actividad real se necesita un endpoint y almacenamiento persistente.
-
-La zona inicial es `MXL01`; se configura en `app.js` y en el rótulo del menú.
+`log.json` contiene 360 registros sintéticos de agosto a noviembre de 2026. Las nuevas partidas no se guardan en el archivo publicado: un sitio estático no puede escribir al repositorio. Para persistencia real se requiere un endpoint y almacenamiento.
