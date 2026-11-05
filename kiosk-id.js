@@ -2,18 +2,18 @@ document.addEventListener('DOMContentLoaded', () => {
   const dialog = document.getElementById('user-id-dialog');
   const form = document.getElementById('user-id-form');
   const input = document.getElementById('user-id-input');
+  const platformLabel = document.getElementById('selected-platform');
   const closeButton = dialog.querySelector('.dialog-close');
-  let selectedTarget = null;
-  let replayingClick = false;
+  let selectedPlatform = 'HCM';
 
   document.addEventListener('click', (event) => {
-    if (replayingClick) return;
     const target = event.target.closest('.inline-item, .card');
     if (!target) return;
 
     event.preventDefault();
     event.stopImmediatePropagation();
-    selectedTarget = target;
+    selectedPlatform = target.closest('.card').dataset.platform.toUpperCase();
+    platformLabel.textContent = `PLATAFORMA ${selectedPlatform}`;
     input.value = '';
     dialog.showModal();
     input.focus();
@@ -21,21 +21,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   form.addEventListener('submit', (event) => {
     event.preventDefault();
-    if (!selectedTarget) return;
+    const userId = input.value.trim();
+    if (!userId) return;
 
-    sessionStorage.setItem('kiosko-user-id', input.value.trim());
-    const target = selectedTarget;
-    selectedTarget = null;
+    sessionStorage.setItem('kiosko-user-id', userId);
     dialog.close();
-
-    // Replay the original menu click so the existing menu navigation still runs.
-    replayingClick = true;
-    target.click();
-    replayingClick = false;
+    window.KioskGame.start(selectedPlatform, userId);
   });
 
-  closeButton.addEventListener('click', () => {
-    selectedTarget = null;
-    dialog.close();
-  });
+  closeButton.addEventListener('click', () => dialog.close());
 });

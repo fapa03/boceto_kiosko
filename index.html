@@ -459,6 +459,7 @@
   <form id="user-id-form">
     <button type="button" class="dialog-close" aria-label="Cerrar">×</button>
     <h2 id="user-id-title">Identifícate</h2>
+    <p id="selected-platform" class="platform-caption"></p>
     <p>Ingresa tu ID para continuar. No se requiere contraseña.</p>
     <label for="user-id-input">ID de usuario</label>
     <input id="user-id-input" name="userId" type="text" autocomplete="off" required maxlength="40" placeholder="Ej. 57649">
@@ -466,8 +467,41 @@
   </form>
 </dialog>
 
+<section id="game-screen" hidden aria-labelledby="game-title">
+  <div class="game-card">
+    <div class="game-topline">
+      <span class="game-brand">PAQUETEXPRESS · <span id="game-platform">HCM</span></span>
+      <div class="timer-pill"><span class="timer-dot"></span><span id="session-state">SESIÓN EN CURSO</span><strong id="session-timer">00:00</strong></div>
+    </div>
+    <p class="game-eyebrow">RETO RÁPIDO</p>
+    <h1 id="game-title">Tic Tac Toe</h1>
+    <p class="game-subtitle">Tú eres <b>X</b>. Haz tres en línea antes de la computadora.</p>
+    <p id="game-status" class="game-status" aria-live="polite">Tu turno</p>
+    <div id="tic-tac-toe-board" class="tic-tac-toe-board" role="grid" aria-label="Tablero de Tic Tac Toe" tabindex="-1">
+      <button class="game-cell" data-cell="0" aria-label="Casilla 1" role="gridcell"></button>
+      <button class="game-cell" data-cell="1" aria-label="Casilla 2" role="gridcell"></button>
+      <button class="game-cell" data-cell="2" aria-label="Casilla 3" role="gridcell"></button>
+      <button class="game-cell" data-cell="3" aria-label="Casilla 4" role="gridcell"></button>
+      <button class="game-cell" data-cell="4" aria-label="Casilla 5" role="gridcell"></button>
+      <button class="game-cell" data-cell="5" aria-label="Casilla 6" role="gridcell"></button>
+      <button class="game-cell" data-cell="6" aria-label="Casilla 7" role="gridcell"></button>
+      <button class="game-cell" data-cell="7" aria-label="Casilla 8" role="gridcell"></button>
+      <button class="game-cell" data-cell="8" aria-label="Casilla 9" role="gridcell"></button>
+    </div>
+    <button id="end-session" class="end-session-button" type="button">Terminar sesión</button>
+    <div id="session-result" class="session-result" hidden>
+      <span id="result-icon" class="result-icon">✓</span>
+      <p class="game-eyebrow">SESIÓN FINALIZADA</p>
+      <h2 id="result-title">Buen juego</h2>
+      <p>Tiempo de sesión</p>
+      <strong id="final-session-timer" class="final-session-timer">00:00</strong>
+      <button id="return-to-menu" class="return-menu-button" type="button">Volver al menú</button>
+    </div>
+  </div>
+</section>
+
 <style>
-  #user-id-dialog { width: min(420px, calc(100% - 32px)); border: 0; border-radius: 16px; padding: 0; box-shadow: 0 20px 70px #10182b55; }
+  #user-id-dialog { position: fixed; inset: 0; margin: auto; width: min(420px, calc(100% - 32px)); max-height: calc(100% - 32px); border: 0; border-radius: 16px; padding: 0; box-shadow: 0 20px 70px #10182b55; }
   #user-id-dialog::backdrop { background: #10182b99; backdrop-filter: blur(3px); }
   #user-id-form { position: relative; display: grid; gap: 12px; padding: 30px; font-family: 'Segoe UI', sans-serif; }
   #user-id-form h2 { margin: 0; color: #17213b; }
@@ -476,8 +510,39 @@
   #user-id-input { width: 100%; padding: 13px; border: 1px solid #cbd1de; border-radius: 8px; font: inherit; }
   .continue-button { border: 0; border-radius: 8px; padding: 13px; color: white; background: #002dc7; font-weight: 700; cursor: pointer; }
   .dialog-close { position: absolute; top: 8px; right: 12px; border: 0; background: transparent; color: #687187; font-size: 25px; cursor: pointer; }
+  .platform-caption { color: #002dc7 !important; font-size: 11px !important; font-weight: 800; letter-spacing: .12em; margin: 4px 0 -7px !important; }
+  #game-screen[hidden], #session-result[hidden], .container[hidden], #app-version[hidden] { display: none !important; }
+  #game-screen { position: fixed; inset: 0; z-index: 1001; overflow-y: auto; padding: 28px 18px; background: radial-gradient(ellipse at top, #e8edff 0, #f7f8fc 58%, #fff 100%); font-family: 'Segoe UI', sans-serif; }
+  .game-card { position: relative; width: min(100%, 490px); min-height: 620px; margin: 0 auto; padding: 25px 30px 30px; border: 1px solid #e4e8f2; border-radius: 22px; background: #fff; box-shadow: 0 22px 65px #1c2d6318; text-align: center; }
+  .game-topline { display: flex; align-items: center; justify-content: space-between; gap: 12px; text-align: left; }
+  .game-brand { color: #667085; font-size: 10px; font-weight: 800; letter-spacing: .1em; }
+  .timer-pill { display: flex; align-items: center; gap: 7px; padding: 9px 11px; border: 1px solid #dce6d4; border-radius: 30px; background: #f6fbf2; color: #516241; font-size: 9px; font-weight: 800; letter-spacing: .06em; white-space: nowrap; }
+  .timer-pill strong { color: #1e2b19; font-size: 15px; font-variant-numeric: tabular-nums; letter-spacing: .04em; }
+  .timer-dot { width: 8px; height: 8px; border-radius: 50%; background: #59a836; box-shadow: 0 0 0 0 #59a83666; animation: timerPulse 1.5s infinite; }
+  .timer-pill.finished .timer-dot { background: #9299a7; box-shadow: none; animation: none; }
+  @keyframes timerPulse { 60% { box-shadow: 0 0 0 6px #59a83600; } 100% { box-shadow: 0 0 0 0 #59a83600; } }
+  .game-eyebrow { margin: 38px 0 6px; color: #2144bd; font-size: 10px; font-weight: 800; letter-spacing: .16em; }
+  #game-title { margin: 0; color: #18213b; font-size: 36px; letter-spacing: -.05em; }
+  .game-subtitle { margin: 9px 0 20px; color: #697184; font-size: 13px; }
+  .game-status { min-height: 24px; margin: 0 0 12px; color: #183eac; font-size: 14px; font-weight: 700; }
+  .tic-tac-toe-board { display: grid; grid-template-columns: repeat(3, 1fr); gap: 9px; width: min(100%, 330px); margin: 0 auto 19px; }
+  .game-cell { aspect-ratio: 1; border: 1px solid #e1e6f1; border-radius: 14px; background: #f7f8fc; color: #1741c0; cursor: pointer; font: 800 52px/1 'Segoe UI', sans-serif; transition: transform .15s, background .15s, box-shadow .15s; }
+  .game-cell:hover:empty { transform: translateY(-2px); background: #eef2ff; box-shadow: 0 7px 16px #263d8418; }
+  .game-cell:disabled { cursor: default; }
+  .game-cell.computer-mark { color: #ef9c4b; }
+  .end-session-button { border: 0; padding: 9px 14px; background: transparent; color: #7a8293; font: 600 12px 'Segoe UI', sans-serif; cursor: pointer; }
+  .end-session-button:hover { color: #173fc2; }
+  .session-result { position: absolute; inset: 90px 18px 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 25px; border: 1px solid #e7eaf2; border-radius: 18px; background: #ffffffef; backdrop-filter: blur(5px); }
+  .result-icon { display: grid; width: 48px; height: 48px; place-items: center; border-radius: 50%; background: #dff4c8; color: #376d1d; font-size: 24px; font-weight: 800; }
+  .session-result .game-eyebrow { margin-top: 22px; }
+  .session-result h2 { margin: 0 0 8px; color: #18213b; font-size: 30px; }
+  .session-result p:not(.game-eyebrow) { margin: 8px 0; color: #697184; font-size: 13px; }
+  .final-session-timer { display: block; margin: 0 0 20px; color: #173fc2; font-size: 38px; font-variant-numeric: tabular-nums; letter-spacing: .04em; }
+  .return-menu-button { border: 0; border-radius: 9px; padding: 13px 18px; background: #173fc2; color: #fff; font-weight: 700; cursor: pointer; }
+  @media (max-width: 480px) { #game-screen { padding: 12px; } .game-card { min-height: 590px; padding: 18px 16px 22px; } .timer-pill { gap: 5px; padding: 8px; font-size: 8px; } .game-cell { border-radius: 11px; font-size: 45px; } .session-result { inset: 80px 8px 12px; } }
 </style>
 
+<script src="tic-tac-toe.js"></script>
   <script src="kiosk-id.js"></script>
   <script src="script.js"></script>
 
